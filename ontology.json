@@ -206,12 +206,48 @@
       "canonicalDate": "2024-04-16"
     },
     {
+      "@id": "ci:pattern.clarity-mapping-worksheet",
+      "category": "Implementation Pattern",
+      "layer": ["Data", "Logic", "Interface", "Orchestration", "Feedback"],
+      "maturity": ["Level 3", "Level 4"],
+      "description": "Structured approach to identify and align clarity gaps across system layers and stakeholders",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-25"
+    },
+    {
+      "@id": "ci:pattern.maturity-vs-balance-2x2",
+      "category": "Implementation Pattern",
+      "layer": ["Interface", "Feedback"],
+      "maturity": ["Level 3", "Level 4"],
+      "description": "Assessment framework contrasting system maturity against architectural balance",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-25"
+    },
+    {
+      "@id": "ci:pattern.universal-patterns-of-intelligence-evolution",
+      "category": "Implementation Pattern",
+      "layer": ["Data", "Logic", "Interface", "Orchestration", "Feedback"],
+      "maturity": ["Level 3", "Level 4", "Level 5"],
+      "description": "Common developmental pathways that intelligence systems follow as they mature",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-25"
+    },
+    {
+      "@id": "ci:pattern.structure-memory-interaction-triad",
+      "category": "Implementation Pattern",
+      "layer": ["Data", "Logic", "Interface", "Orchestration", "Feedback"],
+      "maturity": ["Level 3", "Level 4", "Level 5"],
+      "description": "Fundamental triad enabling persistent, evolvable intelligence through organization, recall, and refinement",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-25"
+    },
+    {
       "@id": "ci:antipattern.ballup",
       "category": "Anti-Pattern",
       "layer": ["Orchestration", "Feedback"],
       "maturity": ["Level 2", "Level 3"],
       "description": "Chronic recurring issues despite repeated attempts to fix them",
-      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/ballup-canonical-source.md",
+      "canonicalSource": "knowledge-base/patterns-and-anti-patterns/anti-patterns/ballup-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
@@ -221,7 +257,7 @@
       "layer": ["Logic", "Feedback"],
       "maturity": ["Level 2", "Level 3"],
       "description": "Organizations repeatedly solving the same problems",
-      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/cognitive-amnesia-canonical-source.md",
+      "canonicalSource": "knowledge-base/patterns-and-anti-patterns/anti-patterns/cognitive-amnesia-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
@@ -240,7 +276,7 @@
       "layer": ["Logic", "Orchestration"],
       "maturity": ["Level 2", "Level 3"],
       "description": "Operations dependent on specific individuals rather than structure",
-      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/hero-syndrome-canonical-source.md",
+      "canonicalSource": "knowledge-base/patterns-and-anti-patterns/anti-patterns/hero-syndrome-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
@@ -250,7 +286,7 @@
       "layer": ["Data", "Logic", "Interface", "Orchestration"],
       "maturity": ["Level 2", "Level 3", "Level 4"],
       "description": "Systems appearing functional until stress reveals structural fragilities",
-      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/metastable-intelligence-canonical-source.md",
+      "canonicalSource": "knowledge-base/patterns-and-anti-patterns/anti-patterns/metastable-intelligence-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
@@ -269,8 +305,8 @@
       "layer": ["Interface", "Orchestration"],
       "maturity": ["Level 2", "Level 3"],
       "description": "Adopting tools instead of addressing architectural issues",
-      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/toolification-canonical-source.md",
-      "epistemologicalSource": "sources/toolification-epistemological-source.md",
+      "canonicalSource": "knowledge-base/patterns-and-anti-patterns/anti-patterns/toolification-canonical-source.md",
+      "epistemologicalSource": "knowledge-base/sources/toolification-epistemological-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
@@ -280,7 +316,7 @@
       "layer": ["Orchestration", "Feedback"],
       "maturity": ["Level 2", "Level 3"],
       "description": "Complex automations with invisible logic creating unpredictable outcomes",
-      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/trigger-chaos-canonical-source.md",
+      "canonicalSource": "knowledge-base/patterns-and-anti-patterns/anti-patterns/trigger-chaos-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
@@ -300,7 +336,63 @@
       "layer": ["Interface", "Feedback"],
       "maturity": ["Level 3", "Level 4"],
       "description": "Measurements proliferate without influencing behavior or driving adaptation",
-      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/metric-mirage-canonical-source.md",
+      "canonicalSource": "knowledge-base/patterns-and-anti-patterns/anti-patterns/metric-mirage-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:antipattern.clarity-laws",
+      "category": "Anti-Pattern",
+      "layer": ["Data", "Logic", "Interface", "Orchestration", "Feedback"],
+      "maturity": ["Level 2", "Level 3"],
+      "description": "Empirical principles governing how structural choices constrain or enhance clarity",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-25"
+    },
+    {
+      "@id": "ci:antipattern.cultural-resistance-as-ballup",
+      "category": "Anti-Pattern",
+      "layer": ["Orchestration", "Feedback"],
+      "maturity": ["Level 2", "Level 3"],
+      "description": "Cultural forces manifesting as recurring friction points despite apparent resolution",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-25"
+    },
+    {
+      "@id": "ci:diagnostic.layer-maturity-grid",
+      "category": "Diagnostic Framework",
+      "layer": ["Data", "Logic", "Interface", "Orchestration", "Feedback"],
+      "maturity": ["Level 3", "Level 4", "Level 5"],
+      "description": "Diagnostic tool mapping the maturity of each modal layer against an evolutionary scale",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-25"
+    },
+    {
+      "@id": "ci:diagnostic.cross-boundary-triangulation",
+      "category": "Diagnostic Framework",
+      "layer": ["Logic", "Interface", "Feedback"],
+      "maturity": ["Level 3", "Level 4", "Level 5"],
+      "description": "Method for gathering perspectives from different roles, levels, and functions",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:core-concept.cognitive-infrastructure-retrieval",
+      "category": "Core Concept",
+      "layer": ["Data", "Logic", "Interface", "Orchestration", "Feedback"],
+      "maturity": ["Level 4", "Level 5"],
+      "description": "A recursive, epistemically structured retrieval system that enables intelligence reuse across agents and time",
+      "canonicalSource": "knowledge-base/docs/canonical-source-documents/cir-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-25"
+    },
+    {
+      "@id": "ci:core-concept.epistemic-circulation",
+      "category": "Core Concept",
+      "layer": ["Data", "Logic", "Interface", "Orchestration", "Feedback"],
+      "maturity": ["Level 4", "Level 5"],
+      "description": "The architecture of intelligence flow that enables structured knowledge to remain coherent as it moves across agents, contexts, and time",
+      "canonicalSource": "knowledge-base/docs/canonical-source-documents/epistemic-circulation-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     }
@@ -309,12 +401,12 @@
     {
       "type": "canonicalSource",
       "description": "Comprehensive, definitive treatment of a concept providing full context, theoretical underpinnings, and detailed examples",
-      "location": "library/"
+      "location": "knowledge-base/"
     },
     {
       "type": "epistemologicalSource",
       "description": "Research documents with external references rather than definitive concept descriptions",
-      "location": "sources/"
+      "location": "knowledge-base/sources/"
     }
   ]
 } 
