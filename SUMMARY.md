@@ -22,6 +22,12 @@ summary: Complete index of the Meta-Stack repository content
 * [CI Writer Tool](tools/ci-writer.js)
 * [CI Coder Tool](tools/ci-coder.js)
 
+## Scripts
+* [Ensure JSON Files](scripts/ensure-json-files.js)
+* [Update Related Sections](scripts/update-related-sections.js)
+* [Validate All](scripts/validate-all.js)
+
 ## Revision Log
 
+- v1.1 (Apr 2025): Added Scripts section with utility scripts
 - v1.0 (Apr 2025): Initial migration from knowledge-base monorepo 

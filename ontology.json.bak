@@ -6,7 +6,7 @@
       "layer": ["Interface", "Orchestration", "Feedback"],
       "maturity": ["Level 3", "Level 4"],
       "description": "Accumulated cost of misaligned operational architecture",
-      "canonicalSource": "knowledge-base/core-concepts/structure-debt-canonical-source.md",
+      "canonicalSource": "library/core-concepts/structure-debt-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
@@ -52,7 +52,7 @@
       "layer": ["Data", "Logic", "Interface", "Orchestration", "Feedback"],
       "maturity": ["Level 0", "Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8"],
       "description": "Eight-stage ladder from fragmentation to integrated intelligence",
-      "canonicalSource": "knowledge-base/core-concepts/universal-evolutionary-stages-canonical-source.md",
+      "canonicalSource": "library/core-concepts/universal-evolutionary-stages-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
@@ -98,7 +98,7 @@
       "layer": ["Logic", "Orchestration"],
       "maturity": ["Level 3", "Level 4"],
       "description": "Operational dependence on heroism inversely proportional to structural maturity",
-      "canonicalSource": "knowledge-base/core-concepts/hero-structure-inverse-correlation-law-canonical-source.md",
+      "canonicalSource": "library/core-concepts/hero-structure-inverse-correlation-law-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
@@ -108,7 +108,7 @@
       "layer": ["Logic", "Interface", "Feedback"],
       "maturity": ["Level 3", "Level 4"],
       "description": "Cumulative deficit in shared meaning and interpretive trust",
-      "canonicalSource": "knowledge-base/core-concepts/coherence-debt-canonical-source.md",
+      "canonicalSource": "library/core-concepts/coherence-debt-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
@@ -118,7 +118,7 @@
       "layer": ["Logic", "Feedback"],
       "maturity": ["Level 4", "Level 5"],
       "description": "Moment when a system perceives the architecture shaping its understanding",
-      "canonicalSource": "knowledge-base/core-concepts/epistemophany-canonical-source.md",
+      "canonicalSource": "library/core-concepts/epistemophany-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
@@ -128,7 +128,7 @@
       "layer": ["Data", "Logic", "Interface"],
       "maturity": ["Level 4", "Level 5"],
       "description": "Foundational architecture determining possible forms of knowledge",
-      "canonicalSource": "knowledge-base/core-concepts/epistemic-substrate-theory-canonical-source.md",
+      "canonicalSource": "library/core-concepts/epistemic-substrate-theory-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
@@ -138,7 +138,7 @@
       "layer": ["Data", "Logic"],
       "maturity": ["Level 3", "Level 4", "Level 5"],
       "description": "System's capacity to incorporate new knowledge without fragmentation",
-      "canonicalSource": "knowledge-base/core-concepts/structural-receptivity-canonical-source.md",
+      "canonicalSource": "library/core-concepts/structural-receptivity-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
@@ -290,7 +290,7 @@
       "layer": ["Logic", "Interface"],
       "maturity": ["Level 3", "Level 4"],
       "description": "Resistance encountered when translating meaning across boundaries",
-      "canonicalSource": "knowledge-base/core-concepts/semantic-friction-canonical-source.md",
+      "canonicalSource": "library/core-concepts/semantic-friction-canonical-source.md",
       "author": "Rashid Azarang",
       "canonicalDate": "2024-04-16"
     },
