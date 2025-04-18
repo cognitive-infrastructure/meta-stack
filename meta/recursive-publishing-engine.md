@@ -1,9 +1,12 @@
 ---
 id: ci:meta.recursive-publishing-engine  
+author: "Rashid Azarang"
 status: canonical  
 version: 1.0  
 purpose: Self-description of publishing automation system  
 ---
+
+<!-- Migration Status: Complete -->
 
 # Recursive Publishing Engine
 
@@ -108,6 +111,9 @@ The Recursive Publishing Engine itself must evolve according to these constraint
 7. **Test-Driven Evolution**: New features should include validation tests to ensure they properly maintain the integrity of the knowledge base.
 
 8. **Declarative Configuration**: Generation rules and validation constraints should be externalized in configuration rather than embedded in code.
+
+## 📎 Related Documents
+* [Knowledge Base PRD](cognitive-infrastructure-knowledge-base.md)
 
 ## 5. Revision Log
 

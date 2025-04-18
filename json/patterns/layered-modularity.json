@@ -50,4 +50,6 @@
     "ci:concept.modal-layer-architecture",
     "ci:antipattern.trigger-chaos"
   ]
+,
+  "author": "Rashid Azarang"
 }

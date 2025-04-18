@@ -1,0 +1,21 @@
+{
+  "id": "ci:meta.readme",
+  "version": "0.1",
+  "status": "draft",
+  "title": "Pending Documents Directory",
+  "author": "Rashid Azarang",
+  "sections": [
+    {
+      "title": "Purpose",
+      "content": "The `/docs/pending/` directory is designed as a single entry point for adding new content to the Cognitive Infrastructure knowledge base. Documents placed here will be automatically:\n\n1. Classified by type (concept, pattern, anti-pattern, etc.)\n2. Routed to the appropriate destination\n3. Transformed to follow canonical structure\n4. Published to the main repository structure"
+    },
+    {
+      "title": "How to Use",
+      "content": "### 1. Add Draft Documents\n\nPlace your Markdown (`.md`) files in this directory. Each draft should include:\n\n**Required:**\n- A descriptive filename\n- A clear title (H1)\n- Basic content outlining the concept/pattern\n\n**Optional:**\n- Frontmatter with preliminary metadata\n- TODO markers for sections requiring AI-assisted completion\n- References to related concepts\n\n### 2. Process Pending Documents\n\nTo process the documents in this directory, run:\n\n```bash\nnode tools/ci-coder.js process-pending\n```\n\nThis will:\n- Analyze and classify each document\n- Apply canonical structure and formatting\n- Generate corresponding JSON files\n- Move documents to their appropriate locations\n- Remove the original files from the pending directory\n- Update the knowledge base summary\n\n### 3. Review Results\n\nAfter processing, review the transformed documents in their new locations and make any necessary adjustments."
+    },
+    {
+      "title": "Additional Notes",
+      "content": "- Documents will be auto-classified based on content keywords, but you can include explicit type markers (e.g., \"Pattern:\", \"Anti-Pattern:\", \"Concept:\") in the title or content to ensure correct classification.\n- Use the `--keep-original` flag with the `process-pending` command to keep copies of the original files in this directory.\n- TODOs in your documents will not be processed automatically during routing - use `node tools/ci-writer.js --path docs/pending` first if you want to generate content from TODOs."
+    }
+  ]
+}

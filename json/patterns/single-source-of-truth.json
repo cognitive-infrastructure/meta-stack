@@ -53,4 +53,6 @@
     "ci:antipattern.cognitive-amnesia",
     "ci:antipattern.semantic-drift"
   ]
+,
+  "author": "Rashid Azarang"
 }

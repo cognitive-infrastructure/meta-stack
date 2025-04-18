@@ -48,4 +48,6 @@
     "ci:antipattern.ballup",
     "ci:antipattern.cognitive-amnesia"
   ]
+,
+  "author": "Rashid Azarang"
 }

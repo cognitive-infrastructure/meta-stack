@@ -1,0 +1,29 @@
+{
+  "id": "ci:pattern.maturity-vs-balance-2x2",
+  "version": "0.1",
+  "status": "draft",
+  "title": "Maturity vs. Balance 2×2",
+  "author": "Rashid Azarang",
+  "sections": [
+    {
+      "title": "Description",
+      "content": "The Maturity vs. Balance 2×2 is a high-level strategic diagnostic framework that evaluates operational architecture along two critical dimensions:\n\n1. **Y-axis: System Maturity (Low → High)**: Measures how far a system has progressed up the Maturity Ladder (0-7), reflecting the overall sophistication of capabilities across all layers.\n\n2. **X-axis: System Balance (Low → High)**: Measures how closely maturity levels are aligned across all five modal layers (Data, Logic, Interface, Orchestration, Feedback), reflecting architectural coherence.\n\nThis creates four distinct quadrants, each with characteristic patterns and strategic implications:\n\n- **True Clarity (High Maturity + High Balance)**: Operations with advanced capabilities built on solid foundations where all modal layers have evolved in relative harmony.\n\n- **Decorated Fragility (High Maturity + Low Balance)**: Operations with advanced capabilities in some layers built atop weak foundations, typically manifesting as sophisticated interfaces or automations masking fundamental data or logic issues.\n\n- **Foundational Discipline (Low Maturity + High Balance)**: Operations with limited sophistication but strong architectural coherence, typically seen in younger organizations that have prioritized structural clarity over advanced capabilities.\n\n- **Operational Fog (Low Maturity + Low Balance)**: Operations with limited sophistication and poor architectural coherence, characterized by manual processes, tribal knowledge, and reactive management."
+    },
+    {
+      "title": "When to Use",
+      "content": "The Maturity vs. Balance 2×2 is most useful in the following situations:\n\n- During strategic planning to establish architectural priorities\n- When evaluating divergent perspectives on system improvement\n- After completing a Layer-Maturity assessment to interpret the results\n- When comparing different operational domains within an organization\n- At inflection points when considering significant technology investments\n- When diagnosing seemingly intractable operational challenges\n- During merger/acquisition technical due diligence\n\nThis diagnostic helps organizations identify their current architectural state and determine the most appropriate improvement strategy based on both maturity and balance considerations."
+    },
+    {
+      "title": "Inputs and Outputs",
+      "content": "**Inputs:**\n- Assessment of each modal layer's maturity level (0-7)\n- Calculation of average maturity across all layers\n- Calculation of maturity variance or range across layers\n- Qualitative assessment of operational pain points\n- Stakeholder perspectives on system capabilities and friction\n\n**Outputs:**\n- Quadrant placement on the 2×2 matrix\n- Strategic direction based on quadrant position\n- Prioritized improvement focus areas\n- Appropriate transformation approach\n- Communication framework for architectural status\n- Risk assessment based on quadrant characteristics"
+    },
+    {
+      "title": "Procedure",
+      "content": "1. **Assess Modal Layer Maturity**\n   - Evaluate each layer (Data, Logic, Interface, Orchestration, Feedback) on the 0-7 scale\n   - Document specific examples supporting each assessment\n   - Identify highest and lowest maturity layers\n\n2. **Calculate Maturity Metrics**\n   - Average maturity across all layers (determines Y-axis position)\n   - Standard deviation or range between highest and lowest layer (determines X-axis position)\n   - Plot current position on the 2×2 grid\n\n3. **Analyze Quadrant Implications**\n   - For True Clarity: Focus on extending capabilities while maintaining architectural discipline\n   - For Decorated Fragility: Prioritize strengthening foundational layers before adding more advanced capabilities\n   - For Foundational Discipline: Build more advanced capabilities while maintaining architectural balance\n   - For Operational Fog: Establish basic structural foundations before attempting advanced capabilities\n\n4. **Develop Transformation Strategy**\n   - Identify the most direct path to True Clarity based on current position\n   - Determine whether to prioritize maturity advancement or balance improvement\n   - Create specific initiatives addressing the dimensions requiring attention\n   - Establish metrics to track movement across the 2×2 grid\n\n5. **Communicate Findings**\n   - Present quadrant position with supporting evidence\n   - Explain strategic implications of current position\n   - Articulate the vision for evolution across the grid\n   - Frame improvement initiatives in terms of quadrant movement"
+    },
+    {
+      "title": "Cross-links",
+      "content": "The Maturity vs. Balance 2×2 connects to several other Cognitive Infrastructure concepts:\n\n- **Universal Evolutionary Stages**: Provides the maturity scale (0-7) used for the Y-axis\n- **Modal Layer Architecture**: Defines the five layers whose balance is assessed on the X-axis\n- **Layer-Maturity Grid**: Provides the detailed assessment that feeds into the 2×2\n- **Clarity Laws**: The first law (\"you don't rise above your weakest layer\") explains why balance matters\n- **Dashboard Theater**: Common symptom of Decorated Fragility quadrant\n- **Hero Syndrome**: Common in Operational Fog and Decorated Fragility quadrants\n- **Continuity-Disruption Balance**: Influences appropriate change strategies for each quadrant"
+    }
+  ]
+}

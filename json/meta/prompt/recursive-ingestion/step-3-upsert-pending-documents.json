@@ -3,6 +3,7 @@
   "version": "1.0",
   "status": "canonical",
   "title": "Step 3: Upsert Pending Documents",
+  "author": "Rashid Azarang",
   "summary": "Validates, deduplicates, and integrates draft entries from the pending directory into the main knowledge base with proper versioning and integrity checks.",
   "relatedPrompts": [
     "ci:meta.prompt.recursive-ingestion.step-2",

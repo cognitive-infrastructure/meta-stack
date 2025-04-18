@@ -53,4 +53,6 @@
     "ci:antipattern.dashboard-theater",
     "ci:antipattern.semantic-drift"
   ]
+,
+  "author": "Rashid Azarang"
 }

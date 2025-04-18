@@ -1,0 +1,20 @@
+{
+  "id": "ci:diagnostic.cross-boundary-triangulation",
+  "title": "Cross-Boundary Triangulation",
+  "author": "Rashid Azarang",
+  "summary": "Method for gathering perspectives from different roles, levels, and functions to create composite understanding.",
+  "version": "1.0",
+  "status": "canonical",
+  "relatedConcepts": [
+    "ci:core-concept.structure-memory-interaction",
+    "ci:core-concept.multi-axis-integration",
+    "ci:core-concept.semantic-friction"
+  ],
+  "tags": [
+    "diagnostics",
+    "triangulation",
+    "perspectives",
+    "cross-boundary",
+    "communication"
+  ]
+} 

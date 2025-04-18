@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:core-concept.epistemic-circulation",
+  "@type": "ci:Concept",
+  "author": "Rashid Azarang",
+  "version": "1.0",
+  "label": {
+    "en": "Epistemic Circulation"
+  },
+  "description": {
+    "en": "The architecture of intelligence flow that enables structured knowledge to remain coherent as it moves across agents, contexts, and time."
+  },
+  "definition": {
+    "en": "How structured intelligence flows through recursive loops of creation, structuring, publishing, retrieval, and evolution while maintaining coherence across transformations."
+  },
+  "principles": [
+    {
+      "name": "Circulation Integrity",
+      "description": "Intelligence must maintain semantic integrity as it flows across contexts, requiring architectural boundaries that preserve meaning during transitions."
+    },
+    {
+      "name": "Recursive Loops",
+      "description": "Intelligence improves through structured feedback loops that allow it to build upon itself rather than merely accumulate."
+    },
+    {
+      "name": "Structural Coherence",
+      "description": "As intelligence moves across boundaries, its structural architecture must maintain coherence while adapting to new contexts."
+    },
+    {
+      "name": "Transitional Protocols",
+      "description": "Clear mechanisms are needed for intelligence to move between human cognition, organizational structures, and machine systems."
+    },
+    {
+      "name": "Flow Dynamics",
+      "description": "Pattern recognition of resistance, friction, and acceleration in intelligence circulation enables optimization of knowledge flow."
+    }
+  ],
+  "relatedConcepts": [
+    "ci:core-concept.structure-memory-interaction",
+    "ci:core-concept.return-as-intelligence",
+    "ci:core-concept.semantic-friction",
+    "ci:core-concept.modal-layer-architecture",
+    "ci:core-concept.structural-receptivity"
+  ],
+  "relatedPapers": [
+    "ci:canonical-source.epistemic-circulation",
+    "ci:diagnostic.intelligence-circulation",
+    "ci:paper.cognitive-infrastructure-retrieval",
+    "ci:paper.publishing-for-intelligence"
+  ],
+  "tags": [
+    "circulation",
+    "intelligence-flow",
+    "knowledge-architecture",
+    "coherence",
+    "evolution",
+    "core-concept"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16"
+} 

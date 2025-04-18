@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:canonical-source.epistemic-circulation",
+  "@type": "ci:CanonicalSource",
+  "version": "1.0",
+  "title": "Epistemic Circulation: The Architecture of Intelligence Flow",
+  "category": "canonical-source",
+  "author": "Rashid Azarang",
+  "language": "en",
+  "label": {
+    "en": "Epistemic Circulation Canonical Source"
+  },
+  "description": {
+    "en": "Canonical source document defining the circulatory system of Cognitive Infrastructure — how structured intelligence flows, evolves, and remains coherent across agents, contexts, and time."
+  },
+  "relatedConcepts": [
+    "ci:core-concept.epistemic-circulation",
+    "ci:core-concept.structure-memory-interaction",
+    "ci:core-concept.return-as-intelligence",
+    "ci:core-concept.semantic-friction",
+    "ci:core-concept.modal-layer-architecture",
+    "ci:core-concept.structural-receptivity"
+  ],
+  "sourceFile": "docs/canonical-source-documents/epistemic-circulation-canonical-source.md",
+  "documentStructure": {
+    "conceptualLayer": [
+      "Circulation Principles",
+      "Structural Foundations",
+      "Transitional Protocols",
+      "Flow Dynamics",
+      "Evolutionary Mechanics"
+    ]
+  },
+  "sections": [
+    {
+      "title": "The Architectonics of Structured Intelligence",
+      "content": "This constellation of work is coalescing into what I'd call \"Intelligence Structuration\" – a subdiscipline focused on the deliberate architecture of intelligence across its full lifecycle from creation through retrieval to evolution."
+    },
+    {
+      "title": "What This Cluster Is Becoming",
+      "content": "The unifying concept isn't merely about managing knowledge but about constructing intelligence infrastructures that recursively improve through use. These papers collectively describe a complete circuit of intelligence flow."
+    },
+    {
+      "title": "The Canonical Source Document",
+      "content": "This canonical document would serve as the conceptual anchor for this cluster, structured into five interconnected layers: Circulation Principles, Structural Foundations, Transitional Protocols, Flow Dynamics, and Evolutionary Mechanics."
+    },
+    {
+      "title": "Placement in the Genesis Book",
+      "content": "This cluster should be positioned as a Functional System within the Genesis Book – specifically, as the \"Circulatory System\" of Cognitive Infrastructure."
+    },
+    {
+      "title": "What's Missing",
+      "content": "The missing piece in this constellation is a theory of Circulation Diagnostics – a systematic framework for identifying, analyzing, and addressing failures in intelligence flow."
+    }
+  ],
+  "canonicalDate": "2024-04-16",
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16",
+  "id": "ci:canonical-source.epistemic-circulation",
+  "summary": "Canonical source document defining the circulatory system of Cognitive Infrastructure — how structured intelligence flows, evolves, and remains coherent across agents, contexts, and time.",
+  "status": "canonical",
+  "sourceDocument": "genesis-cluster-architectonics.md",
+  "relatedPapers": [
+    "ci:paper.cognitive-infrastructure-retrieval",
+    "ci:paper.publishing-for-intelligence",
+    "ci:paper.marketing-for-machines",
+    "ci:paper.scaling-ai-code-assistants",
+    "ci:paper.field-definition",
+    "ci:diagnostic.intelligence-circulation"
+  ],
+  "tags": [
+    "circulation",
+    "intelligence-flow",
+    "architecture",
+    "evolution",
+    "coherence",
+    "circulation-principles",
+    "transitional-protocols",
+    "canonical-source"
+  ]
+} 

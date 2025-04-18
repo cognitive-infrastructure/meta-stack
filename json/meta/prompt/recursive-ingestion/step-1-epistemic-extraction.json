@@ -3,6 +3,7 @@
   "version": "1.0",
   "status": "canonical",
   "title": "Step 1: Epistemic Extraction",
+  "author": "Rashid Azarang",
   "summary": "Defines the first stage in the recursive ingestion pipeline — extracting core concepts, patterns, diagnostics, and epistemic assets from unstructured manuscripts.",
   "relatedPrompts": [
     "ci:meta.prompt.recursive-ingestion.step-2",

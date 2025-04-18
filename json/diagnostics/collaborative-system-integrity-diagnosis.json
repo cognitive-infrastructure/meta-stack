@@ -1,0 +1,143 @@
+{
+  "id": "ci:diagnostic.collaborative-system-integrity-diagnosis",
+  "type": "diagnostic",
+  "status": "canonical",
+  "version": "1.0",
+  "title": "Collaborative System Integrity Diagnosis",
+  "author": "Rashid Azarang",
+  "summary": "A methodology examining how intelligence emerges across boundaries between different entities, including human-human, human-tool, human-AI, and AI-AI collaborations. Reveals characteristic patterns that enable or constrain collective intelligence through epistemic foundations, trust calibration, agency projection, and interface contracts.",
+  "relatedConcepts": [
+    "Multi-Axis Integration Framework", 
+    "Structure-Memory-Interaction Triad", 
+    "Modal Layer Architecture",
+    "Semantic Drift", 
+    "Return-as-Intelligence", 
+    "Friction Ontology", 
+    "Hero Syndrome"
+  ],
+  "description": "Collaborative System Integrity Diagnosis is a methodology for examining how intelligence emerges across boundaries between different entities, whether human-human, human-tool, human-AI, or AI-AI collaborations. This diagnostic approach reveals characteristic patterns that either enable or constrain collective intelligence, focusing on the architectural conditions that allow intelligence to flow coherently across domains.",
+  "whenToUse": [
+    "When designing human-AI collaboration systems",
+    "During integration of new tools or technologies into workflows",
+    "When diagnosing knowledge transfer issues between teams",
+    "Before implementing cross-functional initiatives",
+    "During digital transformation planning",
+    "When optimizing complex multi-agent systems",
+    "As part of organizational restructuring preparation",
+    "When designing knowledge management architectures",
+    "During the development of AI assistants and augmentation tools",
+    "For troubleshooting collaboration breakdowns in complex environments"
+  ],
+  "inputs": [
+    "Collaboration patterns across different entity boundaries",
+    "Knowledge flow maps between system components",
+    "Error and friction points in cross-boundary work",
+    "Success cases of effective collaborative intelligence",
+    "Interface designs and interaction protocols",
+    "Semantic models and knowledge representation schemes",
+    "Trust dynamics and authority patterns",
+    "Agency models and decision rights frameworks"
+  ],
+  "outputs": [
+    "Diagnosis of collaborative intelligence patterns",
+    "Identification of specific boundary frictions",
+    "Classification of collaboration anti-patterns",
+    "Architectural recommendations for improved integration",
+    "Interface design principles for enhancing collaboration",
+    "Knowledge representation strategies for cross-boundary flow",
+    "Governance models for collaborative intelligence",
+    "Evolution path for enhanced collective capabilities"
+  ],
+  "procedure": {
+    "collaborationPatterns": [
+      {
+        "name": "Human-Human Collaboration Patterns",
+        "focus": "Examining epistemic foundations like shared framing, meta-cognition, and perspective integration that enable true collective intelligence",
+        "assessmentMethod": "Interview pairs, observe decision processes, analyze communication artifacts, map knowledge domains",
+        "keyDiagnostics": [
+          "Semantic alignment: Do terms mean the same things to different people?",
+          "Meta-cognitive visibility: Can collaborators see each other's thinking processes?",
+          "Perspective integration: Are different viewpoints synthesized or merely accommodated?",
+          "Trust calibration: Is trust appropriately calibrated to actual capability?",
+          "Knowledge externalization: Is tacit knowledge made explicit for others?"
+        ]
+      },
+      {
+        "name": "Human-Tool Collaboration Patterns",
+        "focus": "Assessing trust calibration, cognitive offloading, semantic alignment, and interface transparency that shape whether tools extend or replace human capability",
+        "assessmentMethod": "Observe tool usage, analyze work products, interview users about mental models, examine error patterns",
+        "keyDiagnostics": [
+          "Appropriate reliance: Does tool use reflect actual capabilities?",
+          "Interface transparency: Do interfaces reveal tool limitations and assumptions?",
+          "Cognitive partnership: Does the tool complement human thinking or replace it?",
+          "Learning transfer: Do humans gain capability through tool use?",
+          "Cognitive load: Does the tool reduce or increase total cognitive burden?"
+        ]
+      },
+      {
+        "name": "Human-AI Collaboration Patterns",
+        "focus": "Evaluating agency projection, prompt scaffolding, feedback as instruction, and structural memory that determine whether AI creates genuine cognitive partnership",
+        "assessmentMethod": "Analyze interaction logs, conduct think-aloud sessions, examine output utilization, assess error recovery",
+        "keyDiagnostics": [
+          "Capability transparency: Is AI's actual capability clear to users?",
+          "Contextual preservation: Is context maintained across interactions?",
+          "Expertise boundaries: Are domain boundaries and knowledge limits clear?",
+          "Feedback loops: Does human feedback improve AI performance?",
+          "Agency clarity: Is decision authority clearly delineated?"
+        ]
+      },
+      {
+        "name": "AI-AI Collaboration Patterns",
+        "focus": "Analyzing interface contracts, semantic standardization, state management, and error handling that enable coherent multi-agent intelligence",
+        "assessmentMethod": "Examine system architecture, trace information flow, analyze error propagation, test boundary conditions",
+        "keyDiagnostics": [
+          "Contract clarity: Are interface agreements well-defined?",
+          "Uncertainty propagation: How is uncertainty handled across components?",
+          "Conflict resolution: How are contradictory outputs reconciled?",
+          "Semantic consistency: Is meaning preserved across transfers?",
+          "Error amplification: Do errors compound or get contained?"
+        ]
+      }
+    ],
+    "integrationAnalysis": [
+      "Map collaboration patterns across the entire system ecology",
+      "Identify where intelligence fragments versus compounds",
+      "Trace knowledge flow across different boundary types",
+      "Locate architectural bottlenecks in collective intelligence",
+      "Analyze failure modes in complex collaborations",
+      "Determine intervention points for enhancing system-wide clarity"
+    ]
+  },
+  "crosslinks": [
+    {
+      "concept": "Multi-Axis Integration Framework",
+      "relationship": "Addresses integration across organizational dimensions"
+    },
+    {
+      "concept": "Structure-Memory-Interaction Triad",
+      "relationship": "Provides a lens for analyzing collaboration components"
+    },
+    {
+      "concept": "Modal Layer Architecture",
+      "relationship": "Helps locate collaboration issues across different system layers"
+    },
+    {
+      "concept": "Semantic Drift",
+      "relationship": "Anti-pattern that emerges in human-human collaboration breakdowns"
+    },
+    {
+      "concept": "Return-as-Intelligence",
+      "relationship": "Explains how collaborative knowledge compounds through revisitation"
+    },
+    {
+      "concept": "Friction Ontology",
+      "relationship": "Provides taxonomy for identifying specific collaboration frictions"
+    },
+    {
+      "concept": "Hero Syndrome",
+      "relationship": "Anti-pattern visible in certain human-human collaboration diagnostics"
+    }
+  ],
+  "filePath": "/knowledge-base/diagnostics/collaborative-system-integrity-diagnosis.md",
+  "lastUpdated": "2023-04-24"
+} 

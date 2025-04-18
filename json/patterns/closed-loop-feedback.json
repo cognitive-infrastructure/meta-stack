@@ -53,4 +53,6 @@
     "ci:antipattern.cognitive-amnesia",
     "ci:antipattern.metric-mirage"
   ]
+,
+  "author": "Rashid Azarang"
 }

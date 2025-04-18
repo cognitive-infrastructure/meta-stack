@@ -1,0 +1,31 @@
+{
+  "id": "ci:pattern.recursive-ingestion",
+  "version": "1.0",
+  "status": "canonical",
+  "title": "Recursive Ingestion Pattern",
+  "author": "Rashid Azarang",
+  "summary": "A pattern for systematically processing new content through a standardized pipeline that classifies, structures, and integrates it into a knowledge base while maintaining consistency and relationships.",
+  "relatedConcepts": ["Structural Receptivity", "Semantic Foundation", "Return Path Engineering"],
+  "sections": [
+    {
+      "title": "Problem",
+      "content": "Organizations with complex knowledge bases face challenges when trying to integrate new content in a consistent, structured manner. Manual processes are error-prone and don't scale, while fully automated approaches may lack the necessary contextual understanding."
+    },
+    {
+      "title": "Solution",
+      "content": "Establish a self-scaling ingestion system with a dedicated staging area (like `/docs/pending/`) where draft documents can be submitted in a relatively unstructured form, then processed through a pipeline that:\n\n1. Classifies content by type and purpose\n2. Routes it to appropriate destinations\n3. Applies canonical structure and formatting\n4. Generates machine-readable representations\n5. Updates indices and cross-references"
+    },
+    {
+      "title": "Implementation",
+      "content": "The implementation requires:\n\n- A staging directory for new content\n- Classification algorithms to determine content type\n- Transformation logic to apply canonical structure\n- Validation mechanisms to ensure quality\n- Cross-reference management to maintain relationships\n\nThe process can be implemented as a sequence of steps:\n\n1. **Content Submission**: Provide a simple entry point for adding draft content.\n2. **Classification**: Analyze the content to determine its type and purpose.\n3. **Structural Transformation**: Apply standard templates and validate against schemas.\n4. **Integration**: Move the content to its final destination and update cross-references.\n5. **Validation**: Ensure all content meets quality and consistency requirements."
+    },
+    {
+      "title": "Examples",
+      "content": "This pattern is implemented in the Cognitive Infrastructure repositories through the four-step process:\n\n1. Epistemic Extraction\n2. Canonical Entry Generation\n3. Upsert Pending Documents\n4. Cross-Referencing Pass\n\nEach step in this process handles a specific aspect of content integration, ensuring that new knowledge is properly structured, validated, and connected to existing concepts."
+    },
+    {
+      "title": "Related Concepts",
+      "content": "- **Structural Receptivity**: This pattern enhances the system's ability to incorporate new knowledge.\n- **Semantic Foundation**: Ensures consistent terminology and meaning across integrated content.\n- **Return Path Engineering**: Creates explicit routes back to previous knowledge contexts."
+    }
+  ]
+} 

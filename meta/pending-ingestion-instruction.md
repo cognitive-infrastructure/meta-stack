@@ -1,3 +1,12 @@
+---
+title: "Pending Ingestion Instruction"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+<!-- Migration Status: Complete -->
+
 {
   "id": "ci:meta.pending-ingestion-instruction",
   "version": "1.1",
@@ -40,6 +49,10 @@
     {
       "title": "Execution Instructions",
       "content": "To process pending documents: 1) Generate TODO content with node tools/ci-writer.js --path docs/pending; 2) Process and upsert documents with node tools/ci-coder.js process-pending; 3) Validate results with node tools/ci-coder.js validate; 4) Execute Cross-Referencing Pass with node tools/ci-coder.js cross-reference; 5) Commit changes."
+    },
+    {
+      "title": "Related Documents",
+      "content": "- [Knowledge Base PRD](cognitive-infrastructure-knowledge-base.md): Comprehensive Product Requirements Document for the Cognitive Infrastructure Knowledge Base"
     },
     {
       "title": "Revision Log",

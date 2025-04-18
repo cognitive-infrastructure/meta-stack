@@ -1,3 +1,11 @@
+---
+id: ci:meta.readme
+author: "Rashid Azarang"
+status: canonical
+version: 1.0
+summary: Tools, schemas, and infrastructure for the Cognitive Infrastructure knowledge base
+---
+
 # Cognitive Infrastructure Meta-Stack
 
 <!-- migrated from knowledge-base repo on 2025-04 -->
@@ -16,5 +24,5 @@ This repository contains the tools, schemas, and infrastructure for managing the
 
 ## Related Repositories
 
-- [knowledge-base](../knowledge-base-fixed) - Core concepts, patterns, anti-patterns, essays, frameworks, diagnostics, and lexicon
+- [knowledge-base](../knowledge-base) - Core concepts, patterns, anti-patterns, essays, frameworks, diagnostics, and lexicon
 - [agentic-systems](../agentic-systems) - Implementation blueprints, agent orchestration strategies, and modular software system patterns 

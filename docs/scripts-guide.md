@@ -1,3 +1,12 @@
+---
+title: "Scripts and Tools Guide"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+<!-- Migration Status: Complete -->
+
 # Scripts and Tools Guide
 
 This document provides detailed information about the scripts and tools available in the Cognitive Infrastructure repository, with a focus on the AI-assisted publishing workflow.

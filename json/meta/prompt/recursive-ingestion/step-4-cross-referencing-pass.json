@@ -3,6 +3,7 @@
   "version": "1.0",
   "status": "canonical",
   "title": "Step 4: Cross-Referencing Pass",
+  "author": "Rashid Azarang",
   "summary": "Analyzes newly integrated entries to establish bidirectional links with related content throughout the knowledge base, enhancing navigation and conceptual connectivity.",
   "relatedPrompts": [
     "ci:meta.prompt.recursive-ingestion.step-3"

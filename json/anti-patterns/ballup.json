@@ -48,4 +48,6 @@
     "ci:pattern.semantic-foundation",
     "ci:antipattern.trigger-chaos"
   ]
+,
+  "author": "Rashid Azarang"
 }

@@ -3,6 +3,7 @@
   "version": "1.1",
   "status": "canonical",
   "title": "Pending Ingestion Protocol",
+  "author": "Rashid Azarang",
   "summary": "A self-scaling system for recursively processing draft documents and integrating them into the Cognitive Infrastructure knowledge base.",
   "sections": [
     {

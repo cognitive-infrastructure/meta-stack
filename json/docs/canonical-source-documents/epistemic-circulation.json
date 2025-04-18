@@ -1,0 +1,35 @@
+{
+  "id": "ci:canonical-source.epistemic-circulation",
+  "title": "Epistemic Circulation: The Architecture of Intelligence Flow",
+  "author": "Rashid Azarang",
+  "summary": "Defining the architectonic principles governing how intelligence maintains coherence as it flows through creation, structuring, publishing, retrieval, and evolution across human and machine contexts.",
+  "version": "1.0",
+  "status": "canonical",
+  "sourceDocument": "genesis-cluster-architectonics.md",
+  "relatedConcepts": [
+    "ci:core-concept.structure-memory-interaction",
+    "ci:core-concept.semantic-friction",
+    "ci:core-concept.modal-layer-architecture",
+    "ci:core-concept.return-as-intelligence",
+    "ci:core-concept.structural-debt",
+    "ci:core-concept.friction-ontology",
+    "ci:core-concept.continuity-disruption-balance"
+  ],
+  "relatedPapers": [
+    "ci:paper.field-definition",
+    "ci:paper.publishing-for-intelligence",
+    "ci:paper.cognitive-infrastructure-retrieval",
+    "ci:paper.marketing-for-machines",
+    "ci:paper.scaling-ai-code-assistants",
+    "ci:diagnostic.intelligence-circulation"
+  ],
+  "tags": [
+    "circulation",
+    "intelligence-flow",
+    "architecture",
+    "evolution",
+    "coherence",
+    "circulation-principles",
+    "transitional-protocols"
+  ]
+} 

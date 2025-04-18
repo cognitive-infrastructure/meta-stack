@@ -3,6 +3,7 @@
   "version": "1.0",
   "status": "canonical",
   "title": "Step 2: Canonical Entry Generation",
+  "author": "Rashid Azarang",
   "summary": "Transforms extracted epistemic assets into properly structured draft markdown files ready for integration into the knowledge base.",
   "relatedPrompts": [
     "ci:meta.prompt.recursive-ingestion.step-1",

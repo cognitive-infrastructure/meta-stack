@@ -15,6 +15,8 @@
 
 ---
 
+<!-- Migration Status: Complete -->
+
 ## 1 · Purpose
 
 CI‑Coder is an AI pair‑programmer that lives inside the IDE (VS Code primary),

@@ -1,0 +1,175 @@
+{
+  "id": "ci:diagnostic.layer-maturity-grid",
+  "type": "diagnostic",
+  "status": "canonical",
+  "version": "1.0",
+  "title": "Layer-Maturity Grid",
+  "author": "Rashid Azarang",
+  "summary": "A diagnostic tool that maps the maturity of each modal layer (Data, Logic, Interface, Orchestration, Feedback) against an evolutionary scale, revealing characteristic patterns like Dashboard Mirage (advanced interfaces built on weak foundations) and identifying where architectural imbalances create operational friction.",
+  "relatedConcepts": [
+    "Modal Layer Architecture", 
+    "Universal Evolutionary Stages", 
+    "Clarity Mapping Worksheet", 
+    "Maturity vs. Balance 2×2", 
+    "Clarity Laws", 
+    "Dashboard Theater", 
+    "Trigger Chaos", 
+    "Continuity-Disruption Balance",
+    "Metastable Intelligence",
+    "Structural Debt",
+    "System Autopsy"
+  ],
+  "description": "The Layer-Maturity Grid is a diagnostic tool that maps the maturity of each modal layer (Data, Logic, Interface, Orchestration, Feedback) against an evolutionary scale, creating a visual representation of a system's architectural balance. This assessment reveals characteristic patterns of development, architectural imbalances, and potential friction points.",
+  "whenToUse": [
+    "During strategic technology planning",
+    "When diagnosing recurring operational issues",
+    "Before investing in new capabilities or tools",
+    "As part of merger/acquisition technical due diligence",
+    "When aligning cross-functional improvement initiatives",
+    "For tracking architectural evolution over time",
+    "In communication with executives about technical debt",
+    "When prioritizing architectural investments"
+  ],
+  "inputs": [
+    "Detailed understanding of current capabilities across all modal layers",
+    "Knowledge of evolutionary stages and their characteristics",
+    "Examples of operational successes and pain points",
+    "Stakeholder experiences from different organizational levels",
+    "Historical context about system evolution",
+    "Technical documentation and architecture diagrams",
+    "Process maps and workflow documentation",
+    "Integration patterns between systems and components"
+  ],
+  "outputs": [
+    "Visual representation of architectural maturity distribution",
+    "Identification of characteristic patterns (Dashboard Mirage, Trigger Chaos, etc.)",
+    "Layer imbalance analysis showing maturity gaps",
+    "Architectural risk assessment based on imbalances",
+    "Strategic priorities for balanced advancement",
+    "Evolution roadmap showing maturity progression",
+    "Communication tool for explaining architectural challenges",
+    "Benchmark for measuring architectural improvement over time"
+  ],
+  "procedure": {
+    "phases": [
+      {
+        "name": "Preparation Phase",
+        "steps": [
+          "Create a grid with five rows (one for each modal layer) and eight columns (one for each evolutionary stage, 0-7)",
+          "Review the characteristics of each modal layer at each evolutionary stage",
+          "Gather relevant documentation and stakeholder perspectives",
+          "Establish assessment criteria and evidence requirements",
+          "Assemble a cross-functional assessment team with diverse viewpoints"
+        ]
+      },
+      {
+        "name": "Assessment Phase",
+        "steps": [
+          "For each modal layer, evaluate current capabilities against stage characteristics",
+          "Determine the highest stage where the organization consistently demonstrates capabilities",
+          "Document specific examples and evidence supporting the assessment",
+          "Note variations across different departments or functional areas",
+          "Identify dependencies between layers that affect maturity"
+        ]
+      },
+      {
+        "name": "Grid Visualization",
+        "steps": [
+          "Mark the assessed maturity level for each layer on the grid",
+          "Create a visual representation showing the overall pattern",
+          "Highlight the maturity range (highest to lowest layer)",
+          "Identify the \"limiting layer\" with lowest maturity",
+          "Calculate metrics like average maturity and standard deviation"
+        ]
+      },
+      {
+        "name": "Pattern Recognition",
+        "steps": [
+          "Analyze the grid for characteristic patterns",
+          "Identify whether the pattern matches known anti-patterns",
+          "Determine if certain layers consistently lag across domains"
+        ],
+        "patterns": [
+          {
+            "name": "Dashboard Mirage",
+            "description": "Advanced Interface layer, weak Data/Logic layers"
+          },
+          {
+            "name": "Trigger Chaos",
+            "description": "Advanced Orchestration layer, weak Feedback layer"
+          },
+          {
+            "name": "Metastable Intelligence",
+            "description": "Wide variation in layer maturity"
+          },
+          {
+            "name": "Balanced Evolution",
+            "description": "Consistent maturity across all layers"
+          }
+        ]
+      },
+      {
+        "name": "Strategic Analysis",
+        "steps": [
+          "Evaluate business impact of identified imbalances",
+          "Assess risk level based on maturity gaps between connected layers",
+          "Determine appropriate advancement strategy",
+          "Define target architecture with improved balance",
+          "Create evolution pathway with intermediate milestones"
+        ],
+        "strategies": [
+          "Foundation strengthening (focus on lagging layers)",
+          "Balanced advancement (maintain even maturity)",
+          "Targeted evolution (strategic advancement in specific areas)"
+        ]
+      },
+      {
+        "name": "Action Planning",
+        "steps": [
+          "Prioritize architectural investments based on critical imbalances",
+          "Develop specific initiatives to address layer gaps",
+          "Create metrics to track architecture balancing progress",
+          "Establish governance to maintain balance during evolution",
+          "Plan communication to build stakeholder understanding",
+          "Integrate findings with broader technology roadmap"
+        ]
+      }
+    ]
+  },
+  "crosslinks": [
+    {
+      "concept": "Modal Layer Architecture",
+      "relationship": "Defines the five layers assessed in the grid"
+    },
+    {
+      "concept": "Universal Evolutionary Stages",
+      "relationship": "Provides the maturity scale (0-7) for assessment"
+    },
+    {
+      "concept": "Clarity Mapping Worksheet",
+      "relationship": "Provides a structured format for creating the grid"
+    },
+    {
+      "concept": "Maturity vs. Balance 2×2",
+      "relationship": "Offers a simplified strategic view of grid results"
+    },
+    {
+      "concept": "Clarity Laws",
+      "relationship": "The first law (\"you don't rise above your weakest layer\") explains why grid patterns matter"
+    },
+    {
+      "concept": "Dashboard Theater",
+      "relationship": "A manifestation of the Dashboard Mirage pattern in the grid"
+    },
+    {
+      "concept": "Trigger Chaos",
+      "relationship": "Appears in the grid as advanced Orchestration with lagging Feedback"
+    },
+    {
+      "concept": "Continuity-Disruption Balance",
+      "relationship": "Influences appropriate evolution strategies based on grid analysis"
+    }
+  ],
+  "filePath": "/knowledge-base/diagnostics/layer-maturity-grid.md",
+  "lastUpdated": "2023-04-24"
+} 

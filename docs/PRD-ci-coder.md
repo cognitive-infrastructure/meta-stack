@@ -1,3 +1,12 @@
+---
+title: "PRD — CI‑Coder"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+<!-- Migration Status: Complete -->
+
 # PRD — CI‑Coder
 *A coding‑assistant LLM for the Cognitive Infrastructure project*
 

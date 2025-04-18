@@ -1,13 +1,16 @@
 ---
-id: ci:meta.prompt.recursive-ingestion.step-2
+id: ci:meta.prompt.manual-document-entries.step-2
+author: "Rashid Azarang"
 status: canonical
 version: 1.0
 summary: Defines the second stage in the recursive ingestion pipeline — transforming extracted epistemic units into structured canonical Markdown entries.
 relatedPrompts:
-  - ci:meta.prompt.recursive-ingestion.step-1
-  - ci:meta.prompt.recursive-ingestion.step-3
-  - ci:meta.prompt.recursive-ingestion.step-4
+  - ci:meta.prompt.manual-document-entries.step-1
+  - ci:meta.prompt.manual-document-entries.step-3
+  - ci:meta.prompt.manual-document-entries.step-4
 ---
+
+<!-- Migration Status: Complete -->
 
 # Step 2: Canonical Entry Generation
 

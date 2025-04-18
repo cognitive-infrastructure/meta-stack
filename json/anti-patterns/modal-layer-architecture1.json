@@ -1,0 +1,25 @@
+{
+  "id": "ci:antipattern.modal-layer-architecture1",
+  "version": "0.1",
+  "status": "draft",
+  "title": "Modal Layer Architecture",
+  "author": "Rashid Azarang",
+  "sections": [
+    {
+      "title": "Definition",
+      "content": "The Modal Layer Architecture is a comprehensive framework that recognizes any operational system—whether a personal knowledge base, an organizational workflow, or an AI application—operates across five distinct layers, each with its own function, principles, and failure modes. These layers are:\n\n1. **Data Layer**: The foundation of raw information and signals before interpretation\n2. **Logic Layer**: The layer of meaning-making, where data is interpreted, transformed, and given semantic significance\n3. **Interface Layer**: The points where humans and systems interact with intelligence\n4. **Orchestration Layer**: The coordination of workflows, sequences, and processes across the system\n5. **Feedback Layer**: The mechanisms through which the system learns, adapts, and improves based on outcomes\n\nWhen these layers blur together or collapse into each other, systems become brittle and intelligence becomes fragmented. The power of Modal Layer Architecture lies in maintaining clear separation between these layers while ensuring they remain coherently integrated."
+    },
+    {
+      "title": "Why It Matters",
+      "content": "The Modal Layer Architecture matters because:\n\n- It provides a diagnostic lens to identify where operational systems are breaking down\n- It creates a map for assessing system maturity across different dimensions\n- It enables targeted interventions at the appropriate layer rather than symptomatic fixes\n- It explains why architectural balance often delivers more operational value than pockets of advancement in individual layers\n- It allows different aspects of a system to evolve at their appropriate pace\n\nBy separating concerns across these five layers, organizations can create systems where intelligence flows coherently and evolves sustainably, rather than becoming tangled and brittle."
+    },
+    {
+      "title": "Key Principles",
+      "content": "**Data Layer Principles:**\n- Entity definitions and relationships should be consistent and well-governed\n- Storage and access patterns should support rather than constrain operational needs\n- Quality and governance should be built into data structures, not added afterward\n\n**Logic Layer Principles:**\n- Business rules and calculations should be externalized from applications and interfaces\n- Decision criteria and thresholds should be explicit and versioned\n- Domain-specific transformations should be documented and consistently applied\n\n**Interface Layer Principles:**\n- Visualizations and dashboards should reflect rather than mask underlying reality\n- Input mechanisms should align with natural workflows\n- APIs and integration points should maintain consistent semantic contracts\n\n**Orchestration Layer Principles:**\n- Process definitions should be explicit and maintained as architectural assets\n- Routing rules should reflect true business logic, not expedient shortcuts\n- State management should provide visibility into process status and history\n\n**Feedback Layer Principles:**\n- Performance measurement should drive action, not merely provide information\n- Pattern identification should be systematic rather than anecdotal\n- Continuous improvement mechanisms should close the loop back to earlier layers\n\n**Integration Principles:**\n- Changes in one layer shouldn't require rebuilding others\n- Each layer should evolve at its appropriate pace\n- Problems should be isolated and addressed at their source\n- Information should flow smoothly across boundaries\n- When layers collapse or blur—when business logic is embedded in interfaces, when data structure is determined by visualization needs, when orchestration lacks feedback—the result is structural debt"
+    },
+    {
+      "title": "Cross-links",
+      "content": "Modal Layer Architecture connects to several other Cognitive Infrastructure concepts:\n\n- **Structure-Memory-Interaction Triad**: Each modal layer implements aspects of structure, memory, and interaction\n- **Layer-Maturity Grid**: Diagnostic tool assessing the maturity of each modal layer\n- **Clarity Laws**: Articulates how layers interact and constrain each other (e.g., \"you don't rise above your weakest layer\")\n- **Dashboard Theater**: Anti-pattern where interface layer compensates for weakness in data and logic\n- **Trigger Chaos**: Anti-pattern where orchestration outpaces feedback capability\n- **Metric Mirage**: Anti-pattern where feedback exists but doesn't close loops to earlier layers\n\nThis entry represents a refinement of the existing Modal Layer Architecture concept, providing much deeper exploration of each layer, their key principles, and integration requirements."
+    }
+  ]
+}

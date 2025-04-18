@@ -1,0 +1,31 @@
+{
+  "id": "ci:diagnostic.intelligence-circulation",
+  "title": "Diagnosis of Intelligence Circulation: Identifying Structural Blockages and Flow Restrictions",
+  "author": "Rashid Azarang",
+  "summary": "A comprehensive diagnostic framework for identifying, measuring, and addressing breakdowns in intelligence flow across systems, contexts, and time.",
+  "version": "1.0",
+  "status": "canonical",
+  "sourceDocument": "genesis-intelligence-circulation-diagnostic.md",
+  "relatedConcepts": [
+    "ci:core-concept.epistemic-circulation",
+    "ci:core-concept.structure-memory-interaction",
+    "ci:core-concept.modal-layer-architecture",
+    "ci:core-concept.return-as-intelligence",
+    "ci:core-concept.semantic-friction",
+    "ci:core-concept.flow-dynamics"
+  ],
+  "relatedPapers": [
+    "ci:canonical-source.epistemic-circulation",
+    "ci:paper.structural-diagnostics-fieldbook",
+    "ci:paper.intelligence-stack"
+  ],
+  "tags": [
+    "diagnostics",
+    "circulation",
+    "intelligence-flow",
+    "blockages",
+    "friction",
+    "flow-restrictions",
+    "circulation-health"
+  ]
+} 

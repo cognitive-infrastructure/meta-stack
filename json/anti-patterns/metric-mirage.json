@@ -50,4 +50,6 @@
     "ci:antipattern.cognitive-amnesia",
     "ci:antipattern.dashboard-theater"
   ]
+,
+  "author": "Rashid Azarang"
 }

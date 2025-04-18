@@ -1,0 +1,43 @@
+{
+  "id": "ci:meta.prompt.manual-document-entries.step-2",
+  "version": "1.0",
+  "status": "canonical",
+  "title": "Step 2: Canonical Entry Generation",
+  "author": "Rashid Azarang",
+  "summary": "Transforms extracted epistemic assets into properly structured draft markdown files ready for integration into the knowledge base.",
+  "relatedPrompts": [
+    "ci:meta.prompt.manual-document-entries.step-1",
+    "ci:meta.prompt.manual-document-entries.step-3",
+    "ci:meta.prompt.manual-document-entries.step-4"
+  ],
+  "sections": [
+    {
+      "title": "Purpose",
+      "content": "The Canonical Entry Generation phase transforms extracted epistemic assets into properly structured markdown files that conform to the Cognitive Infrastructure canonical format. This step bridges raw extraction and integration by producing draft entries that adhere to structural conventions while preserving the semantic richness of the source material."
+    },
+    {
+      "title": "Process Workflow",
+      "content": "1. **Input Processing**: Receive the YAML output from Step 1 containing extracted epistemic assets.\n2. **Template Selection**: For each extracted asset, select the appropriate structural template based on its type (core concept, pattern, anti-pattern, diagnostic, framework, essay, or lexical entry).\n3. **Draft Generation**: Generate a properly formatted .md file with complete frontmatter, canonical structure, and rich content derived from the extraction.\n4. **Standardization**: Ensure all drafts follow consistent formatting, citation, and referencing styles.\n5. **Output Preparation**: Save generated drafts to the `/pending/` directory, categorized by epistemic type."
+    },
+    {
+      "title": "Structural Requirements",
+      "content": "Each generated entry must include:\n- Complete frontmatter with `id`, `version`, `status: draft`, title, summary, created/modified dates\n- Empty `relatedConcepts` array (to be populated in Step 4)\n- Type-specific sections (e.g., Definition, Mechanics, Consequences for core concepts)\n- Properly formatted Markdown with H1, H2, and H3 headers\n- Any necessary citations or references to source materials"
+    },
+    {
+      "title": "Validation Criteria",
+      "content": "- **Structural Integrity**: Does the entry adhere to canonical template requirements?\n- **Epistemic Coherence**: Is the content logically structured and internally consistent?\n- **Conceptual Clarity**: Are definitions precise and examples illustrative?\n- **Semantic Richness**: Does the entry provide depth beyond surface explanation?\n- **Originality**: Does it avoid redundancy with existing canonical entries?"
+    },
+    {
+      "title": "Execution Instructions",
+      "content": "For each entry in the extraction YAML:\n1. Parse type, title, summary and other metadata\n2. Select appropriate template from `/meta/templates/`\n3. Generate complete draft entry with proper structure\n4. Set `status: draft` in frontmatter\n5. Save to appropriate directory under `/pending/`\n6. Prepare report of all generated entries"
+    },
+    {
+      "title": "Next Steps",
+      "content": "Once all draft entries are generated, they move to Step 3: Upsert Pending Documents, where they undergo validation, deduplication checks, and integration into the main knowledge base."
+    },
+    {
+      "title": "Revision Log",
+      "content": "v1.0 (Apr 2025): Initial implementation of the Canonical Entry Generation phase"
+    }
+  ]
+} 

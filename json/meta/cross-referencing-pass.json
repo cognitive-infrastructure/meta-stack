@@ -3,6 +3,7 @@
   "version": "1.0",
   "status": "canonical",
   "title": "Cross-Referencing Protocol",
+  "author": "Rashid Azarang",
   "summary": "A protocol for adding semantic relationships and bi-directional links across all canonical concepts in the repository.",
   "sections": [
     {

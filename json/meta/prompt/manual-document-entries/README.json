@@ -1,0 +1,32 @@
+{
+  "id": "ci:meta.prompt.manual-document-entries.readme",
+  "version": "1.0",
+  "status": "canonical",
+  "title": "Manual Document Entry Prompts",
+  "author": "Rashid Azarang",
+  "summary": "Overview of the manual document entry prompts used in the recursive publishing workflow",
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "This directory contains the prompt documents that guide the process of manually adding entries to the Cognitive Infrastructure knowledge base. These prompts define a systematic workflow for transforming raw ideas and manuscripts into properly structured canonical entries."
+    },
+    {
+      "title": "The Recursive Publishing Workflow",
+      "content": "1. **Step 1: Epistemic Extraction** - Extract core concepts, patterns, and other epistemic assets from unstructured manuscripts\n2. **Step 2: Canonical Entry Generation** - Transform extracted units into structured markdown entries\n3. **Step 3: Upsert Pending Documents** - Process, validate, and integrate draft documents into the canonical knowledge base\n4. **Step 4: Cross-Referencing Pass** - Establish semantic relationships and bidirectional links between concepts"
+    },
+    {
+      "title": "Usage",
+      "content": "These prompts are designed to be used sequentially as part of the publishing workflow. Each step builds on the previous one, creating a pipeline for knowledge integration and refinement."
+    },
+    {
+      "title": "Related Resources",
+      "content": "- JSON Guide - Guide to the JSON representation of knowledge base entries\n- Scripts Guide - Overview of utility scripts used in the publishing workflow\n- CI Writer Tool - Tool for automating content generation\n- CI Coder Tool - Tool for validation and processing"
+    }
+  ],
+  "relatedResources": [
+    "ci:meta.prompt.manual-document-entries.step-1",
+    "ci:meta.prompt.manual-document-entries.step-2",
+    "ci:meta.prompt.manual-document-entries.step-3",
+    "ci:meta.prompt.manual-document-entries.step-4"
+  ]
+} 

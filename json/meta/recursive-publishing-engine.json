@@ -3,6 +3,7 @@
   "version": "1.0",
   "status": "canonical",
   "title": "Recursive Publishing Engine",
+  "author": "Rashid Azarang",
   "summary": "Describes the self-documenting system that generates, validates, and evolves the knowledge base using structured markdown and programmatic tooling.",
   "sections": [
     {

@@ -1,13 +1,16 @@
 ---
-id: ci:meta.prompt.recursive-ingestion.step-1
+id: ci:meta.prompt.manual-document-entries.step-1
+author: "Rashid Azarang"
 status: canonical
 version: 1.0
 summary: Defines the first stage in the recursive ingestion pipeline — extracting core concepts, patterns, diagnostics, and epistemic assets from unstructured manuscripts.
 relatedPrompts:
-  - ci:meta.prompt.recursive-ingestion.step-2
-  - ci:meta.prompt.recursive-ingestion.step-3
-  - ci:meta.prompt.recursive-ingestion.step-4
+  - ci:meta.prompt.manual-document-entries.step-2
+  - ci:meta.prompt.manual-document-entries.step-3
+  - ci:meta.prompt.manual-document-entries.step-4
 ---
+
+<!-- Migration Status: Complete -->
 
 # Step 1: Epistemic Extraction
 

@@ -38,7 +38,7 @@ const options = args.slice(1);
 
 // Directories and file paths
 const ROOT_DIR = process.cwd();
-const JSON_DIR = path.join(ROOT_DIR, 'json');
+const JSON_DIR = path.join(ROOT_DIR, 'meta-stack', 'json');
 const SCHEMA_DIR = path.join(JSON_DIR, 'meta');
 const GITHUB_DIR = path.join(ROOT_DIR, '.github');
 const WORKFLOWS_DIR = path.join(GITHUB_DIR, 'workflows');
@@ -683,7 +683,8 @@ ${status.split('\n').map(line => `- ${line}`).join('\n')}
 async function processPendingDocuments() {
   console.log('Processing pending documents...');
   
-  const PENDING_DIR = path.join(ROOT_DIR, 'docs', 'pending');
+  // Update the path to point to the knowledge-base repository
+  const PENDING_DIR = path.join(ROOT_DIR, 'knowledge-base', 'docs', 'pending');
   
   if (!fs.existsSync(PENDING_DIR)) {
     console.log('Pending directory not found. Creating it...');
@@ -763,6 +764,10 @@ function determineDocumentType(content) {
     return 'pattern';
   } else if (contentLower.includes('anti-pattern') || contentLower.includes('antipattern')) {
     return 'anti-pattern';
+  } else if (contentLower.includes('essay') || contentLower.includes('article') || contentLower.includes('thought piece')) {
+    return 'essay';
+  } else if (contentLower.includes('framework') || contentLower.includes('methodology')) {
+    return 'framework';
   } else if (contentLower.includes('concept') || contentLower.includes('triad') || contentLower.includes('architecture')) {
     return 'concept';
   } else if (contentLower.includes('source') || contentLower.includes('canonical')) {
@@ -777,15 +782,19 @@ function determineDocumentType(content) {
 function getTargetDirectory(docType) {
   switch (docType) {
     case 'concept':
-      return 'core-concepts';
+      return 'knowledge-base/core-concepts';
     case 'pattern':
-      return 'patterns-and-anti-patterns/patterns';
+      return 'knowledge-base/patterns-and-anti-patterns/patterns';
     case 'anti-pattern':
-      return 'patterns-and-anti-patterns/anti-patterns';
+      return 'knowledge-base/patterns-and-anti-patterns/anti-patterns';
+    case 'essay':
+      return 'knowledge-base/essays';
+    case 'framework':
+      return 'knowledge-base/frameworks';
     case 'source-document':
-      return 'docs/source-documents';
+      return 'knowledge-base/docs/source-documents';
     case 'meta':
-      return 'meta';
+      return 'knowledge-base/meta';
     default:
       return null;
   }
@@ -1005,17 +1014,17 @@ async function performCrossReferencing() {
   
   // Define directories to scan
   const DIRS_TO_SCAN = [
-    path.join(ROOT_DIR, 'library/core-concepts'),
-    path.join(ROOT_DIR, 'library/patterns-and-anti-patterns', 'patterns'),
-    path.join(ROOT_DIR, 'library/patterns-and-anti-patterns', 'anti-patterns')
+    path.join(ROOT_DIR, 'knowledge-base/core-concepts'),
+    path.join(ROOT_DIR, 'knowledge-base/patterns-and-anti-patterns/patterns'),
+    path.join(ROOT_DIR, 'knowledge-base/patterns-and-anti-patterns/anti-patterns')
   ];
   
   // Add optional directories if they exist
   const OPTIONAL_DIRS = [
-    'library/frameworks',
-    'library/diagnostics',
-    'library/essays',
-    'library/lexicon'
+    'knowledge-base/frameworks',
+    'knowledge-base/diagnostics',
+    'knowledge-base/essays',
+    'knowledge-base/lexicon'
   ];
   
   OPTIONAL_DIRS.forEach(dir => {
@@ -1233,20 +1242,22 @@ async function updateJsonRelatedConcepts(mdFilePath, relatedConcepts) {
   const fileBaseName = path.basename(mdFilePath, '.md');
   let jsonDir;
   
-  if (mdFilePath.includes('library/core-concepts')) {
+  if (mdFilePath.includes('knowledge-base/core-concepts')) {
     jsonDir = path.join(JSON_DIR, 'core-concepts');
-  } else if (mdFilePath.includes('library/patterns-and-anti-patterns/patterns')) {
+  } else if (mdFilePath.includes('knowledge-base/patterns-and-anti-patterns/patterns')) {
     jsonDir = path.join(JSON_DIR, 'patterns');
-  } else if (mdFilePath.includes('library/patterns-and-anti-patterns/anti-patterns')) {
+  } else if (mdFilePath.includes('knowledge-base/patterns-and-anti-patterns/anti-patterns')) {
     jsonDir = path.join(JSON_DIR, 'anti-patterns');
-  } else if (mdFilePath.includes('library/frameworks')) {
+  } else if (mdFilePath.includes('knowledge-base/frameworks')) {
     jsonDir = path.join(JSON_DIR, 'frameworks');
-  } else if (mdFilePath.includes('library/diagnostics')) {
+  } else if (mdFilePath.includes('knowledge-base/diagnostics')) {
     jsonDir = path.join(JSON_DIR, 'diagnostics');
-  } else if (mdFilePath.includes('library/essays')) {
+  } else if (mdFilePath.includes('knowledge-base/essays')) {
     jsonDir = path.join(JSON_DIR, 'essays');
-  } else if (mdFilePath.includes('library/lexicon')) {
+  } else if (mdFilePath.includes('knowledge-base/lexicon')) {
     jsonDir = path.join(JSON_DIR, 'lexicon');
+  } else if (mdFilePath.includes('knowledge-base/meta')) {
+    jsonDir = path.join(JSON_DIR, 'meta');
   } else {
     return; // Skip if not in a standard directory
   }

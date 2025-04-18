@@ -1,4 +1,29 @@
+---
+id: ci:meta-stack.json.1
+author: "Rashid Azarang"
+status: canonical
+version: 1.0
+summary: Description of the JSON structure and organization in the Cognitive Infrastructure
+---
+
 # Cognitive Infrastructure JSON Repository
+
+<!-- migrated from knowledge-base repo on 2025-04 -->
+
+## IMPORTANT: JSON File Location Policy
+
+**ALL JSON METADATA FILES MUST BE STORED IN THIS REPOSITORY (meta-stack/json).**
+
+Even though the corresponding markdown files may be located in the knowledge-base repository, their JSON metadata should always reside here in the meta-stack. This ensures:
+
+1. Centralized metadata management across all repositories
+2. Consistent validation against schemas
+3. Single source of truth for structured data
+4. Simplified querying and indexing of the entire knowledge graph
+
+When creating new content in knowledge-base or other repositories, always create the corresponding JSON metadata here in meta-stack/json.
+
+---
 
 This directory contains structured JSON representations of all concepts, patterns, anti-patterns, and source documents in the Cognitive Infrastructure framework. These files provide machine-readable definitions that can be validated, indexed, and used in applications.
 

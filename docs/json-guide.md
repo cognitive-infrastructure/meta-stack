@@ -1,3 +1,12 @@
+---
+title: "JSON Files in Cognitive Infrastructure"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+<!-- Migration Status: Complete -->
+
 # JSON Files in Cognitive Infrastructure
 
 This guide explains how JSON files are used in the Cognitive Infrastructure repository to provide machine-readable definitions of concepts, patterns, anti-patterns, and source documents.

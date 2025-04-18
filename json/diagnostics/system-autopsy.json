@@ -1,0 +1,130 @@
+{
+  "id": "ci:diagnostic.system-autopsy",
+  "type": "diagnostic",
+  "status": "canonical",
+  "version": "1.0",
+  "title": "System Autopsy",
+  "author": "Rashid Azarang",
+  "summary": "A facilitated diagnostic ritual designed to expose the actual structure of operational systems, not as they appear in documentation but as they function in reality. Employs tools like Hero Map, Logic Leak Trace, Tool Collapse Map, Interface Illusion Audit, and Operational Eulogy to reveal architectural patterns that support or undermine cognitive clarity.",
+  "relatedConcepts": [
+    "Friction Ontology", 
+    "Structural Debt", 
+    "Layer-Maturity Grid", 
+    "Hero Syndrome", 
+    "Dashboard Theater", 
+    "Cognitive Amnesia", 
+    "Clarity Laws", 
+    "Cross-Boundary Triangulation"
+  ],
+  "description": "A System Autopsy is a facilitated diagnostic ritual designed to expose the actual structure of operational systems—not as they appear in official documentation, but as they function in reality. Unlike process reviews focused on optimization, the Autopsy probes beneath surface symptoms to reveal architectural patterns that either support or undermine cognitive clarity.",
+  "whenToUse": [
+    "Before initiating significant system changes or replacements",
+    "When recurring operational problems resist resolution",
+    "During post-mortems of critical incidents or failures",
+    "As part of merger/acquisition technical due diligence",
+    "When handovers between teams or individuals reveal knowledge gaps",
+    "During organizational transitions or leadership changes",
+    "When documentation and reality have significantly diverged",
+    "As preparation for digital transformation initiatives"
+  ],
+  "inputs": [
+    "Current system documentation and architecture diagrams",
+    "Operational metrics and performance data",
+    "Historical incident records and resolution patterns",
+    "Process maps and workflow documentation",
+    "Stakeholder interviews across different organizational levels",
+    "User experience reports and feedback",
+    "Expert knowledge from long-tenured team members",
+    "Examples of recurring problems and their workarounds"
+  ],
+  "outputs": [
+    "Actual system architecture as it exists in practice",
+    "Map of critical knowledge distribution and dependencies",
+    "Documentation of where true operational logic resides",
+    "Identification of structural debt and architectural friction points",
+    "Visibility into hidden dependencies and single points of failure",
+    "Assessment of system evolution maturity and readiness",
+    "Strategic recommendations for architectural intervention",
+    "Priorities for structural debt reduction"
+  ],
+  "procedure": {
+    "diagnosticTools": [
+      {
+        "name": "Hero Map",
+        "purpose": "Identify individuals who personally hold operations together through memory, vigilance, or willpower",
+        "method": "Interview team members about who they call when systems break; track escalation patterns; observe crisis response",
+        "documentation": "Create a network diagram showing dependencies on specific individuals and the knowledge domains they cover",
+        "analysis": "Assess whether knowledge is structurally embedded or personally dependent; identify critical expertise requiring externalization"
+      },
+      {
+        "name": "Logic Leak Trace",
+        "purpose": "Locate where a system's actual logic resides (in code, dashboards, spreadsheets, or minds)",
+        "method": "Follow the decision-making path for key operational processes; identify where rules, thresholds, and calculations are defined",
+        "documentation": "Map the distribution of business logic across formal and informal repositories",
+        "analysis": "Evaluate consistency, accessibility, and governance of operational logic; identify opportunities for centralization"
+      },
+      {
+        "name": "Tool Collapse Map",
+        "purpose": "Assess critical dependencies on specific platforms or tools",
+        "method": "Document which systems would catastrophically fail if a particular tool became unavailable; identify integration points and dependencies",
+        "documentation": "Create a dependency matrix showing tool relationships and failure cascades",
+        "analysis": "Evaluate resilience to tool failures; identify brittleness in integration patterns; assess architectural flexibility"
+      },
+      {
+        "name": "Interface Illusion Audit",
+        "purpose": "Contrast what dashboards appear to answer with what they actually answer",
+        "method": "Test dashboard accuracy against alternative data sources; evaluate metric definitions and data lineage; assess decision-maker trust levels",
+        "documentation": "Catalog discrepancies between interface promises and delivery; identify trust gaps",
+        "analysis": "Evaluate where interfaces mask rather than reveal reality; identify data quality and integration issues"
+      },
+      {
+        "name": "Operational Eulogy",
+        "purpose": "Document capabilities that have eroded over time",
+        "method": "Interview long-tenured team members about what the system used to do well but no longer does; identify lost functionality",
+        "documentation": "Create a historical record of capability decay and its causes",
+        "analysis": "Evaluate patterns of erosion; identify where technical or structural debt has accumulated; assess organizational memory function"
+      }
+    ],
+    "integrationPhase": [
+      "Synthesize findings from all diagnostic tools",
+      "Create a comprehensive map of the actual system architecture",
+      "Identify patterns of structural debt and architectural friction",
+      "Document the maturity level of different system components",
+      "Develop strategic recommendations for architectural intervention",
+      "Prioritize structural improvements based on operational impact",
+      "Create an evolution roadmap addressing root architectural issues"
+    ]
+  },
+  "crosslinks": [
+    {
+      "concept": "Friction Ontology",
+      "relationship": "Provides the taxonomy of patterns to look for during the autopsy"
+    },
+    {
+      "concept": "Structural Debt",
+      "relationship": "Helps quantify and locate architectural compromises"
+    },
+    {
+      "concept": "Layer-Maturity Grid",
+      "relationship": "Framework for assessing the maturity of different system layers"
+    },
+    {
+      "concept": "Hero Syndrome",
+      "relationship": "Anti-pattern specifically identified through the Hero Map tool"
+    },
+    {
+      "concept": "Dashboard Theater",
+      "relationship": "Anti-pattern revealed through the Interface Illusion Audit"
+    },
+    {
+      "concept": "Cognitive Amnesia",
+      "relationship": "Anti-pattern exposed through the Operational Eulogy"
+    },
+    {
+      "concept": "Clarity Laws",
+      "relationship": "Empirical principles explaining the patterns observed during the autopsy"
+    }
+  ],
+  "filePath": "/knowledge-base/diagnostics/system-autopsy.md",
+  "lastUpdated": "2023-04-24"
+} 

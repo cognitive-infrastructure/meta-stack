@@ -1,13 +1,16 @@
 ---
-id: ci:meta.prompt.recursive-ingestion.step-4
+id: ci:meta.prompt.manual-document-entries.step-4
+author: "Rashid Azarang"
 status: canonical
 version: 1.0
 summary: Defines the fourth stage in the recursive ingestion pipeline — adding semantic relationships and bi-directional links across all canonical concepts in the repository.
 relatedPrompts:
-  - ci:meta.prompt.recursive-ingestion.step-1
-  - ci:meta.prompt.recursive-ingestion.step-2
-  - ci:meta.prompt.recursive-ingestion.step-3
+  - ci:meta.prompt.manual-document-entries.step-1
+  - ci:meta.prompt.manual-document-entries.step-2
+  - ci:meta.prompt.manual-document-entries.step-3
 ---
+
+<!-- Migration Status: Complete -->
 
 # Step 4: Cross-Referencing Pass
 
@@ -25,7 +28,7 @@ Your task is to traverse all canonical `.md` files in the repository and:
 1. Analyze their content
 2. Detect mentions or references to other known concepts
 3. Populate the `relatedConcepts` array in the frontmatter accordingly
-4. Ensure consistency across both the Markdown and `.json` representations
+4. Ensure consistency across both the Markdown and corresponding `.json` representations in the meta-stack repository
 5. Avoid circular or redundant references unless conceptually meaningful
 
 ## Instructions
@@ -42,7 +45,8 @@ Your task is to traverse all canonical `.md` files in the repository and:
 2. For each file:
    - Read the title, definition, and body
    - Detect mentions of other canonical concepts (by title or filename)
-   - Update the `relatedConcepts` list in frontmatter (Markdown and JSON)
+   - Update the `relatedConcepts` list in frontmatter of the Markdown file
+   - Update the corresponding JSON twin in the meta-stack repository
 
 3. Ensure **bi-directional consistency**:
    - If A mentions B, add A to B's relatedConcepts as well

@@ -1,0 +1,25 @@
+{
+  "id": "ci:pattern.example-pattern",
+  "version": "0.1",
+  "status": "draft",
+  "title": "Recursive Ingestion Pattern",
+  "author": "Rashid Azarang",
+  "sections": [
+    {
+      "title": "Problem",
+      "content": "Organizations with complex knowledge bases face challenges when trying to integrate new content in a consistent, structured manner. Manual processes are error-prone and don't scale, while fully automated approaches may lack the necessary contextual understanding."
+    },
+    {
+      "title": "Solution",
+      "content": "Establish a self-scaling ingestion system with a dedicated staging area (like `/docs/pending/`) where draft documents can be submitted in a relatively unstructured form, then processed through a pipeline that:\n\n1. Classifies content by type and purpose\n2. Routes it to appropriate destinations\n3. Applies canonical structure and formatting\n4. Generates machine-readable representations\n5. Updates indices and cross-references"
+    },
+    {
+      "title": "Implementation",
+      "content": "The implementation requires:\n\n- A staging directory for new content\n- Classification algorithms to determine content type\n- Transformation logic to apply canonical structure\n- Validation mechanisms to ensure quality\n- Cross-reference management to maintain relationships\n\n<!-- TODO: Add example code showing how to implement this pattern -->"
+    },
+    {
+      "title": "Related Concepts",
+      "content": "- Structural Receptivity\n- Semantic Foundation\n- Return Path Engineering"
+    }
+  ]
+}
