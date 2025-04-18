@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:antipattern.semantic-drift",
+  "@type": "ci:AntiPattern",
+  "version": "1.0",
+  "category": "antipattern",
+  "author": "Rashid Azarang",
+  "canonicalDate": "2024-04-10",
+  "label": {
+    "en": "Semantic Drift"
+  },
+  "description": {
+    "en": "The gradual divergence in meaning of key terms and concepts across teams, systems, and time."
+  },
+  "definition": {
+    "en": "Semantic Drift describes the gradual divergence in meaning of key terms and concepts across teams, systems, and time. This anti-pattern emerges when terms begin with shared understanding but evolve differently in separate contexts, causing increasing misalignment, communication failures, and integration challenges as differences compound over time."
+  },
+  "principles": [
+    {
+      "name": "Divergent Evolution",
+      "description": "Terms naturally evolve in different directions within isolated teams or systems."
+    },
+    {
+      "name": "Context Loss",
+      "description": "Original meaning context is forgotten as organizations change and evolve."
+    },
+    {
+      "name": "Translation Burden",
+      "description": "Increasing resources must be devoted to translating between divergent terminologies."
+    },
+    {
+      "name": "Trust Erosion",
+      "description": "Inconsistent term usage leads to declining trust in data and communication."
+    },
+    {
+      "name": "Integration Friction",
+      "description": "Systems with different semantic models require complex reconciliation."
+    }
+  ],
+  "relatedConcepts": [
+    "ci:pattern.canonical-ids",
+    "ci:pattern.semantic-foundation",
+    "ci:pattern.single-source-of-truth",
+    "ci:antipattern.cognitive-amnesia"
+  ],
+  "tags": [
+    "semantic",
+    "communication",
+    "integration",
+    "terminology"
+  ],
+  "symptoms": [
+    "Recurring disagreements about meaning of key terms",
+    "Different teams using same words to mean different things",
+    "Meetings where 'we need to get on the same page' repeatedly",
+    "Inconsistent reports showing different numbers for the same metric",
+    "Seemingly agreed decisions that result in divergent actions"
+  ],
+  "rootCause": {
+    "en": "Absence of canonical definitions for core business concepts; terminology evolving independently across different teams; inherited language from multiple legacy systems; inconsistent documentation that fails to express shared understanding."
+  },
+  "impact": {
+    "en": "Wasted time in definitional debates; frequent reconciliation efforts between systems; erosion of trust in operational reporting; broken cross-team handoffs; increased need for translational heroics between departments; delays in decision-making as teams resolve semantic misalignments."
+  },
+  "structuralCure": {
+    "en": "Implement Semantic Foundation pattern to establish canonical business language. Create an official business glossary with explicit versioning and governance. Develop clear ownership for key definitions and metrics. Build semantic alignment into system architecture through master data models. Design explicit translation mechanisms between legacy terminology and canonical definitions."
+  },
+  "quickFixes": [
+    "Start small with definitions for 5-10 most contested terms",
+    "Create a lightweight glossary for critical metrics",
+    "Document key term meanings at the top of reports",
+    "Include definitional footnotes in dashboards",
+    "Add semantic clarification sessions to cross-team handoffs"
+  ],
+  "relatedFrictions": [
+    "ci:antipattern.dashboard-theater",
+    "ci:antipattern.metric-mirage"
+  ],
+  "createdDate": "2024-04-10",
+  "modifiedDate": "2024-04-16"
+}

@@ -1,0 +1,47 @@
+{
+    "@context": {
+      "ci": "https://cognitiveinfrastructure.org/schema#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "schema": "http://schema.org/"
+    },
+    "@id": "ci:antipattern.over-layering",
+    "@type": "ci:AntiPattern",
+    "version": "1.0",
+    "label": {
+      "en": "Over-Layering"
+    },
+    "description": {
+      "en": "Accumulation of complexity layers without corresponding simplification or refactoring."
+    },
+    "tagline": {
+      "en": "It's incredibly sophisticated—if only someone still understood how it worked."
+    },
+    "symptoms": [
+      "Systems that no single person fully understands",
+      "Multiple overlapping technologies addressing similar concerns",
+      "Lengthy onboarding for new team members",
+      "Growing reluctance to modify core components",
+      "Increasing 'archeological' discussions to understand why things work as they do"
+    ],
+    "rootCause": {
+      "en": "Continuous addition of capabilities, technologies, and abstractions without corresponding simplification or removal; prioritization of feature delivery over architectural coherence; avoidance of refactoring due to perceived risk; accumulation of multiple approaches to similar problems."
+    },
+    "impact": {
+      "en": "Growing maintenance costs as complexity compounds; increasing brittleness as interactions between layers create unexpected behaviors; declining productivity as cognitive load exceeds human capacity; erosion of architectural integrity as original design principles become buried."
+    },
+    "structuralCure": {
+      "en": "Implement Layered Modularity pattern to clarify separation of concerns. Create architectural rubric for new capabilities that includes removal/simplification criteria. Invest in systematic refactoring to consolidate redundant layers. Develop clearer abstractions that encapsulate complexity appropriately."
+    },
+    "quickFixes": [
+      "Create system component map showing interaction points and complexity hotspots",
+      "Implement 'complexity budget' requiring simplification to accompany new features",
+      "Schedule regular tech debt reduction sprints",
+      "Document 'just enough' architecture to enable safe navigation of complex components"
+    ],
+    "relatedFrictions": [
+      "ci:antipattern.ballup",
+      "ci:antipattern.trigger-chaos"
+    ],
+    "createdDate": "2024-04-16",
+    "modifiedDate": "2024-04-16"
+  }

@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.clarity-laws",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "label": {
+    "en": "Clarity Laws"
+  },
+  "description": {
+    "en": "Empirical rules showing how weak layers cap capability."
+  },
+  "definition": {
+    "en": "Clarity Laws are empirical rules governing how operational systems behave, regardless of acknowledgment. They reveal structural constraints that determine capability limits, integration dynamics, and evolutionary potential across intelligence systems."
+  },
+  "principles": [
+    {
+      "name": "You don't rise above your weakest layer",
+      "description": "Operational capability is constrained by the least mature layer in your system. Advanced interfaces can't compensate for fragmented data; sophisticated automations can't overcome inconsistent logic."
+    },
+    {
+      "name": "Automation without architecture accelerates entropy at scale",
+      "description": "When processes lack architectural integrity, automation compounds problems rather than solving them, creating more exceptions than efficiencies."
+    },
+    {
+      "name": "Interfaces accelerate dysfunction if upstream layers are broken",
+      "description": "Dashboards and tools built atop weak foundations don't just fail to solve problems; they actively reinforce dysfunction by creating false confidence."
+    },
+    {
+      "name": "Feedback is not a report; it's whether the system learns",
+      "description": "Measurements that don't drive adaptation aren't feedback—they're noise."
+    },
+    {
+      "name": "Semantic alignment is a structural advantage",
+      "description": "Organizations where everyone agrees on what key terms mean operate with significantly less friction than those with semantic fragmentation."
+    }
+  ],
+  "relatedConcepts": [
+    "ci:concept.modal-layer-architecture",
+    "ci:concept.structural-debt"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16"
+}

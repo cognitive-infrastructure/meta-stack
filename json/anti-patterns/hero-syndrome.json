@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:antipattern.hero-syndrome",
+  "@type": "ci:AntiPattern",
+  "version": "1.0",
+  "label": {
+    "en": "Hero Syndrome"
+  },
+  "description": {
+    "en": "Critical operations dependent on specific individuals rather than system structure."
+  },
+  "tagline": {
+    "en": "Everything works fine as long as Sarah is here to fix it."
+  },
+  "symptoms": [
+    "Operations depend on specific individuals",
+    "Anxiety when key people take vacation",
+    "Long onboarding times as tribal knowledge transfers slowly",
+    "Resistance to system changes due to fragile understanding"
+  ],
+  "rootCause": {
+    "en": "Critical knowledge and process control exist in people's heads rather than system structure; operational complexity exceeds documentation; institutional memory substitutes for architectural clarity."
+  },
+  "impact": {
+    "en": "Scaling bottlenecks as hero capacity limits growth; burnout among critical individuals; retention risk with catastrophic knowledge loss potential; increasing workarounds as heroes compensate for structural issues."
+  },
+  "structuralCure": {
+    "en": "Implement knowledge externalization program to document tribal knowledge. Build structural memory through explicit process definitions and decision criteria. Create learning pathways that systematically distribute expertise. Apply Role-Structure Coherence to align responsibilities with supporting systems."
+  },
+  "quickFixes": [
+    "Implement pairing protocols to spread knowledge",
+    "Create 'break glass' runbooks for critical hero-dependent processes",
+    "Establish backup roles with scheduled rotation",
+    "Record hero problem-solving sessions for later reference"
+  ],
+  "relatedFrictions": [
+    "ci:antipattern.cognitive-amnesia",
+    "ci:antipattern.ballup"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16",
+  "relatedConcepts": [
+    "ci:concept.role-structure-coherence",
+    "ci:antipattern.ballup",
+    "ci:antipattern.cognitive-amnesia"
+  ]
+}

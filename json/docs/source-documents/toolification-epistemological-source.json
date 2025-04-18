@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:epistemological-source.toolification",
+  "@type": "ci:EpistemologicalSource",
+  "version": "1.0",
+  "title": "Toolification: Epistemological Source",
+  "category": "epistemological-source",
+  "author": "Rashid Azarang",
+  "language": "en",
+  "label": {
+    "en": "Toolification Epistemological Source"
+  },
+  "description": {
+    "en": "Exploration of the epistemological foundations and implications of the Toolification anti-pattern, including research, external references, and broader context."
+  },
+  "relatedConcepts": [
+    "ci:antipattern.toolification",
+    "ci:concept.structural-debt",
+    "ci:concept.clarity-laws"
+  ],
+  "sourceFile": "docs/source-documents/toolification-epistemological-source.md",
+  "documentType": "epistemological",
+  "researchAreas": [
+    "Organizational Psychology",
+    "System Architecture",
+    "Knowledge Management"
+  ],
+  "externalReferences": [
+    {
+      "author": "Various researchers",
+      "title": "Studies on tool adoption patterns in organizations",
+      "year": "2015-2023",
+      "url": "https://example.com/tool-adoption-research"
+    }
+  ],
+  "canonicalDate": "2024-04-10",
+  "createdDate": "2024-04-10",
+  "modifiedDate": "2024-04-10"
+} 

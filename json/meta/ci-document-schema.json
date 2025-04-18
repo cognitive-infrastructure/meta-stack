@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CI Document Schema",
+  "oneOf": [
+    { "$ref": "#/definitions/canonicalSource" },
+    { "$ref": "#/definitions/epistemologicalSource" }
+  ],
+  "definitions": {
+    "canonicalSource": {
+      "type": "object",
+      "required": ["@id", "@type", "title", "version", "author", "canonicalDate", "sourceFile"],
+      "properties": {
+        "@context": {
+          "type": "object",
+          "properties": {
+            "ci": { "type": "string" },
+            "rdfs": { "type": "string" },
+            "schema": { "type": "string" }
+          }
+        },
+        "@id": { "type": "string" },
+        "@type": { "type": "string", "enum": ["ci:CanonicalSource"] },
+        "version": { "type": "string" },
+        "title": { "type": "string" },
+        "category": { "type": "string", "enum": ["canonical-source"] },
+        "author": { "type": "string" },
+        "language": { "type": "string" },
+        "label": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "description": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "relatedConcepts": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "sourceFile": { "type": "string" },
+        "documentStructure": {
+          "type": "object",
+          "properties": {
+            "conceptualLayer": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "theoreticalLayer": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "diagnosticLayer": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "linguisticLayer": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "narrativeLayer": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "culturalEconomicLayer": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "canonicalDate": { "type": "string", "format": "date" },
+        "createdDate": { "type": "string", "format": "date" },
+        "modifiedDate": { "type": "string", "format": "date" }
+      }
+    },
+    "epistemologicalSource": {
+      "type": "object",
+      "required": ["@id", "@type", "title", "version", "author", "canonicalDate", "sourceFile"],
+      "properties": {
+        "@context": {
+          "type": "object",
+          "properties": {
+            "ci": { "type": "string" },
+            "rdfs": { "type": "string" },
+            "schema": { "type": "string" }
+          }
+        },
+        "@id": { "type": "string" },
+        "@type": { "type": "string", "enum": ["ci:EpistemologicalSource"] },
+        "version": { "type": "string" },
+        "title": { "type": "string" },
+        "category": { "type": "string", "enum": ["epistemological-source"] },
+        "author": { "type": "string" },
+        "language": { "type": "string" },
+        "label": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "description": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "relatedConcepts": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "sourceFile": { "type": "string" },
+        "documentType": { "type": "string", "enum": ["epistemological"] },
+        "researchAreas": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "externalReferences": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["author", "title"],
+            "properties": {
+              "author": { "type": "string" },
+              "title": { "type": "string" },
+              "year": { "type": "string" },
+              "url": { "type": "string" },
+              "doi": { "type": "string" }
+            }
+          }
+        },
+        "canonicalDate": { "type": "string", "format": "date" },
+        "createdDate": { "type": "string", "format": "date" },
+        "modifiedDate": { "type": "string", "format": "date" }
+      }
+    }
+  }
+} 

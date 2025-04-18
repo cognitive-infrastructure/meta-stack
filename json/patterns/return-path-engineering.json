@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:pattern.return-path-engineering",
+  "@type": "ci:Pattern",
+  "version": "1.0",
+  "label": {
+    "en": "Return Path Engineering"
+  },
+  "description": {
+    "en": "Design explicit routes back to previous knowledge and contexts, enabling compound intelligence through revisitation."
+  },
+  "intent": {
+    "en": "Design explicit routes back to previous knowledge and contexts, enabling compound intelligence through revisitation."
+  },
+  "context": {
+    "en": "Knowledge management systems, documentation repositories, organizational learning initiatives, complex collaborative environments."
+  },
+  "problem": {
+    "en": "Information is captured but rarely revisited meaningfully; context gets lost between sessions; teams solve the same problems repeatedly without building on previous solutions."
+  },
+  "forces": {
+    "en": "Recency bias in tool design, initial capture orientation, weak contextual restoration mechanisms, time pressure favoring new creation over revisitation."
+  },
+  "solution": {
+    "en": "Create deliberate return infrastructure: 1) contextual bookmarks that preserve full work state, 2) spaced review triggers based on knowledge lifecycle, 3) entry point designs that restore intention not just content, and 4) revisitation metrics that make return pathways visible and improvable."
+  },
+  "resultingContext": {
+    "en": "Knowledge that compounds rather than just accumulates; reduced solution reinvention; increased depth of understanding through recursive engagement; continuity of thinking across time gaps."
+  },
+  "successSignals": [
+    "Increasing revisitation/creation ratio",
+    "Declining 'rediscovery time' for previous work",
+    "Reduced duplication of solutions",
+    "Growing interconnection density in knowledge repositories",
+    "Evidence of ideas evolving through multiple revisitation cycles"
+  ],
+  "preventedAntiPatterns": [
+    "ci:antipattern.cognitive-amnesia",
+    "ci:antipattern.metric-mirage"
+  ],
+  "relatedPatterns": [
+    "ci:concept.return-as-intelligence",
+    "ci:concept.structure-memory-interaction"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16",
+  "relatedConcepts": [
+    "ci:concept.return-as-intelligence",
+    "ci:antipattern.cognitive-amnesia",
+    "ci:antipattern.metric-mirage"
+  ]
+}

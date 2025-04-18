@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.epistemophany",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "label": {
+    "en": "Epistemophany"
+  },
+  "description": {
+    "en": "The moment when you suddenly see the structures that have been invisibly shaping your thinking."
+  },
+  "definition": {
+    "en": "The moment when a person or system perceives the structural architecture that has been shaping their understanding—a revelation of the previously invisible cognitive infrastructure that enables and constrains what can be known, triggering a recursive awareness that fundamentally changes how the system processes all subsequent information."
+  },
+  "principles": [
+    {
+      "name": "Infrastructure Revelation",
+      "description": "Epistemophany reveals the previously invisible cognitive foundations that have been shaping understanding, making the substrate of thought suddenly perceptible."
+    },
+    {
+      "name": "Recursive Awareness",
+      "description": "The system gains the ability to perceive its own perceptual structures, creating a feedback loop that allows for higher-order cognitive evolution."
+    },
+    {
+      "name": "Transformative Reframing",
+      "description": "After epistemophany, questions shift from content-focused to structure-focused, allowing for architectural rather than merely informational evolution."
+    },
+    {
+      "name": "Coherence Restructuring",
+      "description": "The revelation enables reorganization of knowledge based on deeper structural understanding rather than surface categorization."
+    },
+    {
+      "name": "Threshold Transition",
+      "description": "Epistemophany represents a non-linear shift in understanding—not incremental learning but a qualitative change in how learning itself occurs."
+    }
+  ],
+  "relatedConcepts": [],
+  "createdDate": "2025-04-17",
+  "modifiedDate": "2025-04-17"
+}

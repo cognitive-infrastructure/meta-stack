@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.test-concept",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "label": {
+    "en": "Test Concept"
+  },
+  "description": {
+    "en": "A demonstration of the CI-Writer workflow in the Cognitive Infrastructure framework, showing how knowledge can be efficiently generated, structured, and interconnected."
+  },
+  "definition": {
+    "en": "Test Concept represents a paradigm shift in how we create, maintain, and evolve documentation, serving as a bridge between human expertise and machine capabilities."
+  },
+  "principles": [
+    {
+      "en": "Automation: Using AI to accelerate content creation without sacrificing quality"
+    },
+    {
+      "en": "Structured Knowledge: Maintaining consistent formats across all documentation"
+    },
+    {
+      "en": "Interconnection: Ensuring concepts are properly linked and related"
+    }
+  ],
+  "relatedConcepts": [],
+  "canonicalDate": "2024-04-16",
+  "author": "Rashid Azarang",
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16"
+}

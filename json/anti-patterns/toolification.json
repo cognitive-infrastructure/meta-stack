@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.toolification",
+  "@type": "ci:AntiPattern",
+  "version": "1.0",
+  "label": {
+    "en": "Toolification"
+  },
+  "description": {
+    "en": "Toolification is what happens when we grab another app instead of fixing the system."
+  },
+  "definition": {
+    "en": "A recurrent, system-level pattern in which structural friction is met with the rapid adoption of additional tools—software, platforms, automations—instead of architectural redesign. Toolification offers transient relief yet compounds hidden complexity: fragmented data, brittle integrations, logic dispersed across vendors, and deferred human learning. Epistemologically it signals a breakdown in the co-evolution of human and tool systems, substituting the illusion of progress for genuine clarity."
+  },
+  "author": "Rashid Azarang",
+  "language": "en",
+  "tags": [
+    "anti-patterns",
+    "architecture",
+    "system-design",
+    "technical-debt",
+    "complexity"
+  ],
+  "canonicalDate": "2024-04-16",
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-17",
+  "principles": [
+    {
+      "name": "Compensatory Mechanism",
+      "description": "Toolification emerges as a reflexive response to structural friction, applying surface-level fixes through new applications rather than addressing root architectural issues."
+    },
+    {
+      "name": "Hidden Complexity Amplification",
+      "description": "Each added tool introduces its own data model, logic, and interface layers, compounding integration challenges and creating exponential growth in system complexity."
+    },
+    {
+      "name": "Cognitive De-Augmentation",
+      "description": "As tools proliferate faster than human understanding can integrate them, the supposed augmentation of capabilities inverts into a burden on collective sense-making."
+    },
+    {
+      "name": "Architectural Amnesia",
+      "description": "The rationale behind system design becomes increasingly obscured as logic is dispersed across numerous tools, configurations, and integrations, resisting coherent documentation."
+    },
+    {
+      "name": "Creation-Integration Imbalance",
+      "description": "Creating new tool instances becomes progressively easier than meaningfully integrating them into a coherent architecture, skewing incentives toward accumulation over rationalization."
+    }
+  ],
+  "relatedConcepts": []
+}

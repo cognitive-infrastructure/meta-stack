@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:canonical-source.ballup",
+  "@type": "ci:CanonicalSource",
+  "version": "1.0",
+  "title": "Ballup: Canonical Source",
+  "category": "canonical-source",
+  "author": "Rashid Azarang",
+  "language": "en",
+  "label": {
+    "en": "Ballup Canonical Source"
+  },
+  "description": {
+    "en": "Comprehensive exploration of the Ballup concept, including theoretical underpinnings, diagnostic frameworks, and real-world examples."
+  },
+  "relatedConcepts": [
+    "ci:concept.ballup"
+  ],
+  "sourceFile": "docs/canonical-source-documents/ballup-canonical-source.md",
+  "documentStructure": {
+    "conceptualLayer": [
+      "Canonical Definition",
+      "One-line Summary",
+      "Contrast Map"
+    ],
+    "theoreticalLayer": [
+      "Foundational Thinkers",
+      "Epistemological Implications",
+      "OIF Placement"
+    ],
+    "diagnosticLayer": [
+      "Quick-scan Checklist",
+      "Severity Gradient",
+      "Example Vignettes"
+    ],
+    "linguisticLayer": [
+      "Various Forms",
+      "Cross-lingual Analogues",
+      "Subtype Taxonomy"
+    ],
+    "narrativeLayer": [
+      "Metaphors",
+      "Illustrative Scenes",
+      "Taglines"
+    ],
+    "culturalEconomicLayer": [
+      "Trend Dynamics",
+      "Cultural Narratives",
+      "Economic Mechanisms"
+    ]
+  },
+  "canonicalDate": "2024-04-16",
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16"
+}

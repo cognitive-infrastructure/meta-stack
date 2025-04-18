@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:antipattern.cognitive-amnesia",
+  "@type": "ci:AntiPattern",
+  "version": "1.0",
+  "label": {
+    "en": "Cognitive Amnesia"
+  },
+  "description": {
+    "en": "Organizations repeatedly solving the same problems without building on past solutions."
+  },
+  "tagline": {
+    "en": "Didn't we solve this exact problem last year?"
+  },
+  "symptoms": [
+    "Organization repeatedly solves the same problems",
+    "Valuable insights fade rather than compound",
+    "Past decisions are revisited without reference to previous reasoning",
+    "Teams reinvent solutions that already exist elsewhere"
+  ],
+  "rootCause": {
+    "en": "Memory mechanisms focus on storage rather than retrieval; context lost between solution instances; documentation that captures what but not why; missing connection between related problem occurrences."
+  },
+  "impact": {
+    "en": "Wasted effort recreating known solutions; inconsistent approaches to similar problems; inability to learn from experience at organizational scale; knowledge assets that grow in size but not in value."
+  },
+  "structuralCure": {
+    "en": "Implement Return Path Engineering pattern to create explicit revisitation routes. Build problem-solution repositories with rich contextual metadata. Create connection mechanisms between related issues across time. Design deliberate learning cycles that explicitly incorporate historical perspective."
+  },
+  "quickFixes": [
+    "Create simple issue pattern recognition guide",
+    "Assign 'organizational memory' role in key meetings",
+    "Implement basic context capture templates",
+    "Schedule recurring retrospectives specifically focused on pattern recognition across time"
+  ],
+  "relatedFrictions": [
+    "ci:antipattern.hero-syndrome",
+    "ci:antipattern.ballup"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16",
+  "relatedConcepts": [
+    "ci:pattern.return-path-engineering",
+    "ci:antipattern.ballup",
+    "ci:antipattern.hero-syndrome"
+  ]
+}

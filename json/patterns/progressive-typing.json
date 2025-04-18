@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:pattern.progressive-typing",
+  "@type": "ci:Pattern",
+  "version": "1.0",
+  "label": {
+    "en": "Progressive Typing"
+  },
+  "description": {
+    "en": "Begin with flexible data structures that tighten as understanding grows, balancing exploration with eventual consistency."
+  },
+  "intent": {
+    "en": "Begin with flexible data structures that tighten as understanding grows, balancing exploration with eventual consistency."
+  },
+  "context": {
+    "en": "Emerging domains with evolving understanding; initial implementations of data models; knowledge work systems; exploration-oriented tools."
+  },
+  "problem": {
+    "en": "Premature type rigidity prevents discovery and adaptation, while permanent looseness creates inconsistency and unreliability."
+  },
+  "forces": {
+    "en": "Exploration needs vs. consistency requirements, unknown future use cases, varying skill levels among contributors, knowledge emergence patterns."
+  },
+  "solution": {
+    "en": "Design data structures with explicit evolutionary stages: 1) start with schema-flexible formats that capture raw information, 2) identify recurring patterns through regular analysis, 3) formalize schema elements as patterns stabilize, 4) gradually increase validation requirements as understanding solidifies."
+  },
+  "resultingContext": {
+    "en": "Balance between exploration freedom and structural reliability; data models that evolve with understanding rather than constraining it; reduced need for disruptive migrations; natural knowledge formalization paths."
+  },
+  "successSignals": [
+    "Decreasing schema change frequency over time",
+    "Data validation exceptions cluster around emerging concepts rather than established ones",
+    "Reduced friction in both early exploration and mature usage",
+    "Clear evolutionary history visible in data structures"
+  ],
+  "preventedAntiPatterns": [
+    "ci:antipattern.ballup",
+    "ci:antipattern.over-layering"
+  ],
+  "relatedPatterns": [
+    "ci:concept.universal-evolutionary-stages",
+    "ci:concept.continuity-disruption-balance"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16",
+  "relatedConcepts": [
+    "ci:concept.continuity-disruption-balance",
+    "ci:concept.universal-evolutionary-stages",
+    "ci:antipattern.ballup"
+  ]
+}

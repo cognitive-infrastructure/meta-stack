@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.hero-structure-inverse-correlation-law",
+  "@type": "ci:Pattern",
+  "version": "1.0",
+  "label": {
+    "en": "Hero-Structure Inverse Correlation Law"
+  },
+  "description": {
+    "en": "The more your system depends on heroes, the weaker your underlying structure—and vice versa."
+  },
+  "definition": {
+    "en": "The fundamental relationship where the operational dependence on individual heroism within a system is inversely proportional to the structural maturity of that system (H = k/S), creating a mathematically expressible pattern in which heroic intervention decreases as structural integrity increases across diverse contexts from small teams to large organizations, from simple workflows to complex technological ecosystems."
+  },
+  "author": "Rashid Azarang",
+  "language": "en",
+  "tags": [
+    "patterns",
+    "architecture",
+    "organizational-design",
+    "system-maturity",
+    "hero-dependency"
+  ],
+  "canonicalDate": "2024-04-16",
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-17",
+  "principles": [
+    {
+      "name": "Knowledge Externalization Deficit",
+      "description": "When operational knowledge exists primarily in individuals' minds rather than in explicit structures, those individuals become irreplaceable heroes whose absence creates system fragility."
+    },
+    {
+      "name": "Process Formalization Gap",
+      "description": "Where formal processes are inadequate, incomplete, or poorly designed, heroes emerge to bridge gaps through improvisation, institutional memory, and exceptional effort."
+    },
+    {
+      "name": "Exception Handling Displacement",
+      "description": "Immature systems lack robust exception handling mechanisms, requiring heroes to manage anomalies, edge cases, and unexpected situations through personal intervention."
+    },
+    {
+      "name": "Coordination Overhead Absorption",
+      "description": "In the absence of structural coordination mechanisms, heroes absorb the cognitive and operational burden of maintaining connections between system components."
+    },
+    {
+      "name": "Quality Control Compensation",
+      "description": "When structural quality assurance is insufficient, heroes compensate through vigilance, manual checking, and remedial interventions."
+    }
+  ],
+  "relatedConcepts": []
+}

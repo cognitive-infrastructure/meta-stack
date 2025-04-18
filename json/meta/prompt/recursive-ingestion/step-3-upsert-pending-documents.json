@@ -1,0 +1,45 @@
+{
+  "id": "ci:meta.prompt.recursive-ingestion.step-3",
+  "version": "1.0",
+  "status": "canonical",
+  "title": "Step 3: Upsert Pending Documents",
+  "summary": "Validates, deduplicates, and integrates draft entries from the pending directory into the main knowledge base with proper versioning and integrity checks.",
+  "relatedPrompts": [
+    "ci:meta.prompt.recursive-ingestion.step-2",
+    "ci:meta.prompt.recursive-ingestion.step-4"
+  ],
+  "sections": [
+    {
+      "title": "Purpose",
+      "content": "The Upsert Pending Documents phase handles the critical integration of draft entries into the main knowledge base. It ensures that new content is properly validated, deduplicated against existing entries, and assigned appropriate versioning. This phase maintains the integrity of the knowledge base while allowing for its controlled expansion."
+    },
+    {
+      "title": "Process Workflow",
+      "content": "1. **Validation**: Verify that each pending document meets structural and content quality requirements.\n2. **Deduplication**: Check for conceptual overlap with existing entries in the knowledge base.\n3. **Merge Decision**: Determine whether to create a new entry or update an existing one based on similarity assessment.\n4. **Version Management**: For updates, increment version numbers and preserve change history.\n5. **Path Generation**: Create appropriate file paths based on entry type and content.\n6. **Integration**: Move validated entries from pending to their permanent location in the knowledge base.\n7. **Index Update**: Refresh knowledge base indices to include new entries."
+    },
+    {
+      "title": "Deduplication Logic",
+      "content": "When assessing potential duplicates:\n1. Compare entry titles, summaries, and key definitions for semantic similarity\n2. For similarity scores above 75%, initiate deeper comparative analysis\n3. Recommend one of three actions:\n   - Create new entry (for distinct concepts)\n   - Update existing entry (for improved versions of same concept)\n   - Merge entries (for complementary perspectives on same concept)\n4. For updates and merges, preserve prior content as part of version history"
+    },
+    {
+      "title": "Integration Instructions",
+      "content": "For each validated pending document:\n1. If creating new entry:\n   - Generate permanent ID based on entry type and title\n   - Set version to 1.0\n   - Update status from \"draft\" to \"canonical\"\n   - Create appropriate directory path\n2. If updating existing entry:\n   - Increment version number\n   - Preserve previous version metadata\n   - Update modified timestamp\n   - Document changes in revision history\n3. Write file to final destination in knowledge base\n4. Remove processed entry from pending directory\n5. Log completed action to audit trail"
+    },
+    {
+      "title": "Validation Criteria",
+      "content": "- **Format Compliance**: Does the entry strictly adhere to expected structural templates?\n- **Content Completeness**: Are all required sections populated with substantive content?\n- **Metadata Integrity**: Are frontmatter fields correctly formatted and populated?\n- **Uniqueness**: Does the entry offer distinct value beyond existing entries?\n- **Quality Threshold**: Does the content meet minimum standards for inclusion?"
+    },
+    {
+      "title": "Error Handling",
+      "content": "If validation fails:\n1. Generate detailed error report specifying issues\n2. Move entry to /pending/review/ with .error.md extension\n3. Include validation errors as comments at top of file\n4. Flag for manual review in system logs"
+    },
+    {
+      "title": "Next Steps",
+      "content": "After successful integration, entries proceed to Step 4: Cross-Referencing Pass where conceptual interconnections are established throughout the knowledge base."
+    },
+    {
+      "title": "Revision Log",
+      "content": "v1.0 (Apr 2025): Initial implementation of the Upsert Pending Documents phase"
+    }
+  ]
+} 

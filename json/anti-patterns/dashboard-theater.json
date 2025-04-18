@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:antipattern.dashboard-theater",
+  "@type": "ci:AntiPattern",
+  "version": "1.0",
+  "label": {
+    "en": "Dashboard Theater"
+  },
+  "description": {
+    "en": "Impressive-looking visualizations that mask underlying data and logic weaknesses."
+  },
+  "tagline": {
+    "en": "It looks impressive until someone asks what the numbers actually mean."
+  },
+  "symptoms": [
+    "Beautiful visualizations that don't drive decisions",
+    "Extensive manual preparation before using reports",
+    "Increasing dashboard count without corresponding insight growth",
+    "Persistent questions about metric definitions"
+  ],
+  "rootCause": {
+    "en": "Interface layer sophistication has advanced beyond Logic and Data layer foundations; visualization tools used to create meaning rather than reflect it; aesthetic considerations prioritized over structural accuracy."
+  },
+  "impact": {
+    "en": "Declining trust in operational metrics; increasing time spent debating numbers rather than implications; decisions driven by offline analysis rather than systems; shadow reporting structures emerging to compensate."
+  },
+  "structuralCure": {
+    "en": "Pause dashboard development to strengthen Logic and Data layers. Implement Semantic Foundation pattern for key metrics. Create clear data lineage from source to visualization. Rebuild interfaces to accurately reflect underlying data quality and certainty."
+  },
+  "quickFixes": [
+    "Add data quality indicators to existing visualizations",
+    "Document known limitations in prominent locations",
+    "Create simplified 'most trusted' views with fewer but more reliable metrics",
+    "Clearly separate facts from interpretations"
+  ],
+  "relatedFrictions": [
+    "ci:antipattern.semantic-drift",
+    "ci:antipattern.metric-mirage"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16",
+  "relatedConcepts": [
+    "ci:pattern.semantic-foundation",
+    "ci:antipattern.metric-mirage",
+    "ci:antipattern.semantic-drift"
+  ]
+}

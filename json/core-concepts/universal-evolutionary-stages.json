@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.universal-evolutionary-stages",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "label": {
+    "en": "Universal Evolutionary Stages"
+  },
+  "description": {
+    "en": "Eight-stage ladder from fragmentation to integrated intelligence."
+  },
+  "definition": {
+    "en": "Universal Evolutionary Stages identify a recurring developmental sequence from pre-structural fragmentation through architectural standardization, semantic coherence, contextual adaptation, and ultimately to integrated intelligence—common across different domains of complexity."
+  },
+  "principles": [
+    {
+      "name": "Stage 0-2: Foundation Building",
+      "description": "Initially progressing from operational fog (fragmented, undocumented activity) through basic digitization to simple workflow automation, with emphasis on capturing and connecting information."
+    },
+    {
+      "name": "Stage 3-5: Architectural Coherence",
+      "description": "Advancing from scripted integration to structured data modeling and then semantic business logic, with focus on standardization, unified modeling, and consistent interpretation."
+    },
+    {
+      "name": "Stage 6-8: Adaptive Intelligence",
+      "description": "Evolving from composable services through contextual intelligence to adaptive systems, enabling flexible recombination, context-aware operation, and continuous learning."
+    },
+    {
+      "name": "Implementation Focus Shift",
+      "description": "As organizations progress through stages, emphasis shifts from component improvements to interface standardization and ultimately to architectural evolution."
+    }
+  ],
+  "relatedConcepts": [
+    "ci:concept.continuity-disruption-balance",
+    "ci:concept.modal-layer-architecture"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16"
+}

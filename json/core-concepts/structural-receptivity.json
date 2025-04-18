@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.structural-receptivity",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "label": {
+    "en": "Structural Receptivity"
+  },
+  "description": {
+    "en": "How well a system's architecture can absorb and integrate new knowledge without becoming fragmented or friction-laden."
+  },
+  "definition": {
+    "en": "A system's capacity to incorporate new knowledge into its architecture without fragmentation, measured by how effectively new information integrates with rather than accumulates alongside existing structures, maintaining or enhancing coherence while reducing rather than increasing friction over time."
+  },
+  "principles": [
+    {
+      "name": "Integration vs. Accumulation",
+      "description": "Receptive systems connect new knowledge to existing structures rather than merely piling information alongside them, creating enrichment rather than complexity."
+    },
+    {
+      "name": "Coherence Maintenance",
+      "description": "Systems with high receptivity preserve or enhance overall coherence when incorporating novelty rather than developing internal contradictions or fragmentation."
+    },
+    {
+      "name": "Friction Dynamics",
+      "description": "The effort required to incorporate new knowledge decreases rather than increases over time in receptive systems, indicating sustainable architectural evolution."
+    },
+    {
+      "name": "Boundary Permeability",
+      "description": "Receptive systems maintain semi-permeable boundaries that allow selective incorporation of valuable novelty while preventing disintegration."
+    },
+    {
+      "name": "Recursive Self-Modification",
+      "description": "Truly receptive systems can modify their own architecture in response to persistent novelty, evolving their structure rather than merely accommodating exceptions."
+    }
+  ],
+  "relatedConcepts": [],
+  "createdDate": "2025-04-17",
+  "modifiedDate": "2025-04-17"
+}

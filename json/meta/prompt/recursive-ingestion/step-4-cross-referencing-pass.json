@@ -1,0 +1,44 @@
+{
+  "id": "ci:meta.prompt.recursive-ingestion.step-4",
+  "version": "1.0",
+  "status": "canonical",
+  "title": "Step 4: Cross-Referencing Pass",
+  "summary": "Analyzes newly integrated entries to establish bidirectional links with related content throughout the knowledge base, enhancing navigation and conceptual connectivity.",
+  "relatedPrompts": [
+    "ci:meta.prompt.recursive-ingestion.step-3"
+  ],
+  "sections": [
+    {
+      "title": "Purpose",
+      "content": "The Cross-Referencing Pass is responsible for establishing rich connections between knowledge base entries. It analyzes new and updated content to identify conceptual relationships, ensuring that the knowledge base functions as an interconnected network rather than isolated documents. This phase maximizes the discoverability and utility of information by creating explicit pathways between related concepts."
+    },
+    {
+      "title": "Process Workflow",
+      "content": "1. **Semantic Analysis**: Extract key concepts, entities, and themes from newly integrated entries.\n2. **Similarity Search**: Query the knowledge base for entries with high semantic relevance to the analyzed content.\n3. **Relationship Classification**: Categorize identified connections based on relationship types (e.g., prerequisite, extension, application, contradiction).\n4. **Bidirectional Linking**: Update both the source and target entries to include appropriate cross-references.\n5. **Link Context Addition**: Enhance links with brief contextual notes explaining the nature of the relationship.\n6. **Validation**: Verify that all established links are meaningful and add value to both entries.\n7. **Transitivity Evaluation**: Consider second-degree connections for potential direct linkage."
+    },
+    {
+      "title": "Link Categories",
+      "content": "Cross-references should be categorized by relationship type:\n\n1. **Prerequisite**: Entry B requires understanding of Entry A\n2. **Extension**: Entry B builds upon or elaborates on Entry A\n3. **Application**: Entry B applies concepts from Entry A in a specific context\n4. **Example**: Entry B provides concrete examples of concepts in Entry A\n5. **Comparison**: Entries A and B represent alternative approaches to similar problems\n6. **Contrast**: Entries A and B represent opposing or competing viewpoints\n7. **Part/Whole**: Entry B is a component of the system described in Entry A\n\nEach relationship should be labeled with the appropriate category in both the source and target entry."
+    },
+    {
+      "title": "Implementation Details",
+      "content": "For each newly integrated entry:\n\n1. Generate an embedding vector representing the entry's semantic content\n2. Perform vector similarity search against the knowledge base index\n3. For each potential connection above the similarity threshold (0.65):\n   - Evaluate relationship type based on content analysis\n   - Generate a contextual description of the relationship (1-2 sentences)\n   - Draft appropriate link text for both entries\n4. For existing entries receiving new links:\n   - Preserve the current content structure\n   - Add new links to the 'Related' section\n   - Ensure link text provides sufficient context\n   - Update the entry's version and modification date\n5. Maintain a graph representation of all knowledge base interconnections"
+    },
+    {
+      "title": "Link Quality Criteria",
+      "content": "Each established link should satisfy the following criteria:\n\n- **Relevance**: The connection represents a meaningful conceptual relationship\n- **Specificity**: The link targets a specific, relevant entry rather than a general category\n- **Contextuality**: The link text explains why the connection is valuable\n- **Bidirectionality**: Both entries acknowledge and explain the relationship\n- **Non-redundancy**: The link adds value beyond existing connections\n- **Balance**: Entries should have a reasonable number of links (typically 3-15)\n\nLinks failing these criteria should be refined or omitted."
+    },
+    {
+      "title": "Handling Link Conflicts",
+      "content": "When a new link would create logical inconsistencies:\n1. Identify the specific nature of the conflict (e.g., contradictory assertions, circular dependencies)\n2. Flag the conflict in the system logs with detailed explanation\n3. Create a special 'Needs Resolution' link category connecting the conflicting entries\n4. Add an editorial note in both entries describing the conflict\n5. Queue the conflict for manual review"
+    },
+    {
+      "title": "Next Steps",
+      "content": "After cross-referencing is complete, the knowledge base is ready for regular use. Further entries will be processed through the full recursive ingestion pipeline as they become available."
+    },
+    {
+      "title": "Revision Log",
+      "content": "v1.0 (Apr 2025): Initial implementation of the Cross-Referencing Pass phase"
+    }
+  ]
+} 

@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.structure-debt",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "label": {
+    "en": "Structure Debt"
+  },
+  "description": {
+    "en": "Structure Debt is the hidden mortgage on every quick-and-dirty fix to your system's backbone."
+  },
+  "definition": {
+    "en": "The accumulated liability created when a system's underlying architecture—its data models, process flows, component boundaries, and governance rules—drifts out of alignment with the purposes it must serve. The debt manifests as brittleness, redundancy, and escalating integration costs; like financial interest, its \"payments\" appear as growing effort to make even minor changes."
+  },
+  "principles": [
+    {
+      "name": "Architectural Misalignment",
+      "description": "The system's fundamental structures diverge from the core purposes they are meant to serve, creating cascading inconsistencies between intent and implementation."
+    },
+    {
+      "name": "Progressive Rigidification",
+      "description": "What begins as flexibility hardens into constraint as accretions of patched structure make even simple changes require complex coordination across multiple subsystems."
+    },
+    {
+      "name": "Integration Friction Acceleration",
+      "description": "The effort required to connect components grows non-linearly as structural inconsistencies compound, eventually dominating development and operational costs."
+    },
+    {
+      "name": "Feedback Obstruction",
+      "description": "Poorly structured systems make it difficult to trace cause and effect, obscuring the signals that would normally guide adaptation and improvement."
+    },
+    {
+      "name": "Emergent Liability Transfer",
+      "description": "Structure debt shifts liability from the system's visible mechanics to its invisible architecture, creating a gap between apparent stability and underlying fragility."
+    }
+  ],
+  "relatedConcepts": [],
+  "createdDate": "2025-04-17",
+  "modifiedDate": "2025-04-17"
+}

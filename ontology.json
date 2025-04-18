@@ -1,0 +1,320 @@
+{
+  "concepts": [
+    {
+      "@id": "ci:concept.structural-debt",
+      "category": "Diagnostic Concept",
+      "layer": ["Interface", "Orchestration", "Feedback"],
+      "maturity": ["Level 3", "Level 4"],
+      "description": "Accumulated cost of misaligned operational architecture",
+      "canonicalSource": "library/core-concepts/structure-debt-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.structure-memory-interaction",
+      "category": "Architectural Pattern",
+      "layer": ["Data", "Logic", "Interface"],
+      "maturity": ["Level 2", "Level 3", "Level 4"],
+      "description": "Fundamental triad enabling persistent, evolvable intelligence",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.role-structure-coherence",
+      "category": "Architectural Pattern",
+      "layer": ["Logic", "Orchestration"],
+      "maturity": ["Level 3", "Level 4"],
+      "description": "Alignment of responsibility with supporting scaffolding",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.friction-ontology",
+      "category": "Diagnostic Framework",
+      "layer": ["Logic", "Interface", "Feedback"],
+      "maturity": ["Level 3", "Level 4", "Level 5"],
+      "description": "Taxonomy of recurring clarity frictions and their signals",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.return-as-intelligence",
+      "category": "Epistemological Construct",
+      "layer": ["Logic", "Interface", "Feedback"],
+      "maturity": ["Level 4", "Level 5"],
+      "description": "Revisiting understanding is itself a generative cognitive act",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.universal-evolutionary-stages",
+      "category": "Developmental Framework",
+      "layer": ["Data", "Logic", "Interface", "Orchestration", "Feedback"],
+      "maturity": ["Level 0", "Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8"],
+      "description": "Eight-stage ladder from fragmentation to integrated intelligence",
+      "canonicalSource": "library/core-concepts/universal-evolutionary-stages-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.multi-axis-integration",
+      "category": "Architectural Pattern",
+      "layer": ["Data", "Logic", "Orchestration"],
+      "maturity": ["Level 3", "Level 4", "Level 5"],
+      "description": "Vertical, horizontal, end-to-end coherence across structures",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.continuity-disruption-balance",
+      "category": "Developmental Framework",
+      "layer": ["Logic", "Orchestration", "Feedback"],
+      "maturity": ["Level 3", "Level 4", "Level 5"],
+      "description": "Framework for safe evolution without breaking trust",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.clarity-laws",
+      "category": "Epistemological Construct",
+      "layer": ["Data", "Logic", "Interface", "Orchestration", "Feedback"],
+      "maturity": ["Level 3", "Level 4", "Level 5"],
+      "description": "Empirical rules showing how weak layers cap capability",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.modal-layer-architecture",
+      "category": "Architectural Pattern",
+      "layer": ["Data", "Logic", "Interface", "Orchestration", "Feedback"],
+      "maturity": ["Level 2", "Level 3", "Level 4"],
+      "description": "Five‑layer model that keeps operational intelligence evolvable",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.hero-structure-inverse-correlation-law",
+      "category": "Architectural Pattern",
+      "layer": ["Logic", "Orchestration"],
+      "maturity": ["Level 3", "Level 4"],
+      "description": "Operational dependence on heroism inversely proportional to structural maturity",
+      "canonicalSource": "library/core-concepts/hero-structure-inverse-correlation-law-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.coherence-debt",
+      "category": "Diagnostic Concept",
+      "layer": ["Logic", "Interface", "Feedback"],
+      "maturity": ["Level 3", "Level 4"],
+      "description": "Cumulative deficit in shared meaning and interpretive trust",
+      "canonicalSource": "library/core-concepts/coherence-debt-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.epistemophany",
+      "category": "Diagnostic Concept",
+      "layer": ["Logic", "Feedback"],
+      "maturity": ["Level 4", "Level 5"],
+      "description": "Moment when a system perceives the architecture shaping its understanding",
+      "canonicalSource": "library/core-concepts/epistemophany-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.epistemic-substrate-theory",
+      "category": "Diagnostic Framework",
+      "layer": ["Data", "Logic", "Interface"],
+      "maturity": ["Level 4", "Level 5"],
+      "description": "Foundational architecture determining possible forms of knowledge",
+      "canonicalSource": "library/core-concepts/epistemic-substrate-theory-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.structural-receptivity",
+      "category": "Diagnostic Concept",
+      "layer": ["Data", "Logic"],
+      "maturity": ["Level 3", "Level 4", "Level 5"],
+      "description": "System's capacity to incorporate new knowledge without fragmentation",
+      "canonicalSource": "library/core-concepts/structural-receptivity-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:pattern.canonical-ids",
+      "category": "Implementation Pattern",
+      "layer": ["Data", "Logic"],
+      "maturity": ["Level 3", "Level 4"],
+      "description": "Stable, globally unique identifiers that transcend specific systems",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:pattern.closed-loop-feedback",
+      "category": "Implementation Pattern",
+      "layer": ["Logic", "Feedback"],
+      "maturity": ["Level 4", "Level 5"],
+      "description": "Measurement systems that immediately inform adjustments",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:pattern.layered-modularity",
+      "category": "Implementation Pattern",
+      "layer": ["Data", "Logic", "Interface", "Orchestration", "Feedback"],
+      "maturity": ["Level 3", "Level 4"],
+      "description": "System boundaries aligned with Modal Layers for independent evolution",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:pattern.progressive-typing",
+      "category": "Implementation Pattern",
+      "layer": ["Data", "Logic"],
+      "maturity": ["Level 2", "Level 3", "Level 4"],
+      "description": "Flexible data structures that tighten as understanding grows",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:pattern.return-path-engineering",
+      "category": "Implementation Pattern",
+      "layer": ["Logic", "Interface", "Feedback"],
+      "maturity": ["Level 3", "Level 4", "Level 5"],
+      "description": "Explicit routes back to previous knowledge enabling compound intelligence",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:pattern.semantic-foundation",
+      "category": "Implementation Pattern",
+      "layer": ["Data", "Logic"],
+      "maturity": ["Level 3", "Level 4"],
+      "description": "Unified definitions creating consistent meaning across systems",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:pattern.single-source-of-truth",
+      "category": "Implementation Pattern",
+      "layer": ["Data", "Logic"],
+      "maturity": ["Level 3", "Level 4"],
+      "description": "Authoritative entity records from which all others derive",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:antipattern.ballup",
+      "category": "Anti-Pattern",
+      "layer": ["Orchestration", "Feedback"],
+      "maturity": ["Level 2", "Level 3"],
+      "description": "Chronic recurring issues despite repeated attempts to fix them",
+      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/ballup-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:antipattern.cognitive-amnesia",
+      "category": "Anti-Pattern",
+      "layer": ["Logic", "Feedback"],
+      "maturity": ["Level 2", "Level 3"],
+      "description": "Organizations repeatedly solving the same problems",
+      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/cognitive-amnesia-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:antipattern.dashboard-theater",
+      "category": "Anti-Pattern",
+      "layer": ["Interface", "Feedback"],
+      "maturity": ["Level 2", "Level 3"],
+      "description": "Impressive visualizations masking underlying data weakness",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:antipattern.hero-syndrome",
+      "category": "Anti-Pattern",
+      "layer": ["Logic", "Orchestration"],
+      "maturity": ["Level 2", "Level 3"],
+      "description": "Operations dependent on specific individuals rather than structure",
+      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/hero-syndrome-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:antipattern.metastable-intelligence",
+      "category": "Anti-Pattern",
+      "layer": ["Data", "Logic", "Interface", "Orchestration"],
+      "maturity": ["Level 2", "Level 3", "Level 4"],
+      "description": "Systems appearing functional until stress reveals structural fragilities",
+      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/metastable-intelligence-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:antipattern.semantic-drift",
+      "category": "Anti-Pattern",
+      "layer": ["Data", "Logic"],
+      "maturity": ["Level 2", "Level 3"],
+      "description": "Divergence of terminology meaning across teams and systems",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:antipattern.toolification",
+      "category": "Anti-Pattern",
+      "layer": ["Interface", "Orchestration"],
+      "maturity": ["Level 2", "Level 3"],
+      "description": "Adopting tools instead of addressing architectural issues",
+      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/toolification-canonical-source.md",
+      "epistemologicalSource": "sources/toolification-epistemological-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:antipattern.trigger-chaos",
+      "category": "Anti-Pattern",
+      "layer": ["Orchestration", "Feedback"],
+      "maturity": ["Level 2", "Level 3"],
+      "description": "Complex automations with invisible logic creating unpredictable outcomes",
+      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/trigger-chaos-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:concept.semantic-friction",
+      "category": "Concept",
+      "layer": ["Logic", "Interface"],
+      "maturity": ["Level 3", "Level 4"],
+      "description": "Resistance encountered when translating meaning across boundaries",
+      "canonicalSource": "library/core-concepts/semantic-friction-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    },
+    {
+      "@id": "ci:antipattern.metric-mirage",
+      "category": "Anti-Pattern",
+      "layer": ["Interface", "Feedback"],
+      "maturity": ["Level 3", "Level 4"],
+      "description": "Measurements proliferate without influencing behavior or driving adaptation",
+      "canonicalSource": "library/patterns-and-anti-patterns/anti-patterns/metric-mirage-canonical-source.md",
+      "author": "Rashid Azarang",
+      "canonicalDate": "2024-04-16"
+    }
+  ],
+  "documentTypes": [
+    {
+      "type": "canonicalSource",
+      "description": "Comprehensive, definitive treatment of a concept providing full context, theoretical underpinnings, and detailed examples",
+      "location": "library/"
+    },
+    {
+      "type": "epistemologicalSource",
+      "description": "Research documents with external references rather than definitive concept descriptions",
+      "location": "sources/"
+    }
+  ]
+} 

@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.epistemic-substrate-theory",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "label": {
+    "en": "Epistemic Substrate Theory"
+  },
+  "description": {
+    "en": "All intelligence operates upon hidden foundations that determine what can be known, connected, and evolved within that system."
+  },
+  "definition": {
+    "en": "The foundational architecture that determines the possible forms, connections, persistence, and evolution of knowledge within any system of intelligence, acting as an active matrix that shapes what forms of understanding can develop while rendering others structurally impossible."
+  },
+  "principles": [
+    {
+      "name": "Affordance Creation",
+      "description": "Each substrate creates specific cognitive affordances—possibilities for thought, memory, or understanding that are made available by its structure."
+    },
+    {
+      "name": "Constraint Imposition",
+      "description": "Substrates limit what forms of knowledge can emerge or persist, creating not merely practical but ontological constraints on understanding."
+    },
+    {
+      "name": "Pattern Reinforcement",
+      "description": "Substrates tend to privilege and reinforce certain patterns of thought or knowledge organization while suppressing others, creating path dependencies in cognitive evolution."
+    },
+    {
+      "name": "Visibility Filtering",
+      "description": "Substrates determine what aspects of reality become visible or invisible to the intelligence operating upon them, establishing perceptual boundaries by determining what can be registered as meaningful."
+    },
+    {
+      "name": "Recursive Self-Modification",
+      "description": "The capacity of a substrate to be modified by the knowledge it supports determines its evolutionary potential and adaptive capacity."
+    }
+  ],
+  "relatedConcepts": [],
+  "createdDate": "2025-04-17",
+  "modifiedDate": "2025-04-17"
+}

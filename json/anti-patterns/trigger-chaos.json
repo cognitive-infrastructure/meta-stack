@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:antipattern.trigger-chaos",
+  "@type": "ci:AntiPattern",
+  "version": "1.0",
+  "label": {
+    "en": "Trigger Chaos"
+  },
+  "description": {
+    "en": "Complex automations operating through invisible logic creating unpredictable outcomes."
+  },
+  "tagline": {
+    "en": "Nobody knows exactly what happens when we press this button."
+  },
+  "symptoms": [
+    "Unexpected side effects from automated processes",
+    "Difficulty predicting system behavior in new conditions",
+    "Fear of modifying certain triggers or workflows",
+    "Incomplete documentation of automation logic",
+    "Surprise at what systems do automatically"
+  ],
+  "rootCause": {
+    "en": "Automation logic hidden across multiple systems; orchestration implemented without sufficient visibility or feedback; triggers that cascade unpredictably; lack of comprehensive understanding of interaction chains."
+  },
+  "impact": {
+    "en": "Increasing operational risk as system behavior becomes unpredictable; resistance to change due to fear of breaking hidden dependencies; expanding complexity as workarounds accommodate mysterious behavior; declining trust in automation."
+  },
+  "structuralCure": {
+    "en": "Implement explicit Orchestration layer with clear visibility of workflow logic. Create comprehensive trigger maps showing all cause-effect relationships. Implement Layered Modularity pattern to separate orchestration from execution. Build stronger feedback mechanisms that track automated decisions."
+  },
+  "quickFixes": [
+    "Create 'trigger inventory' documenting known automation points",
+    "Add logging to capture trigger execution and decision paths",
+    "Build simple visualization of automation dependencies",
+    "Establish sandbox environments for safely testing trigger behavior"
+  ],
+  "relatedFrictions": [
+    "ci:antipattern.ballup",
+    "ci:antipattern.over-layering"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16",
+  "relatedConcepts": []
+}

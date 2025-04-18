@@ -1,0 +1,194 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "CI Core Schema",
+    "oneOf": [
+      { "$ref": "#/definitions/concept" },
+      { "$ref": "#/definitions/pattern" },
+      { "$ref": "#/definitions/antiPattern" }
+    ],
+    "definitions": {
+      "concept": {
+        "type": "object",
+        "required": ["@id", "@type", "label", "version"],
+        "properties": {
+          "@context": {
+            "type": "object",
+            "properties": {
+              "ci": { "type": "string" },
+              "rdfs": { "type": "string" },
+              "schema": { "type": "string" }
+            }
+          },
+          "@id": { "type": "string" },
+          "@type": { "type": "string", "enum": ["ci:Concept"] },
+          "version": { "type": "string" },
+          "title": { "type": "string" },
+          "category": { "type": "string", "enum": ["concept"] },
+          "author": { "type": "string" },
+          "language": { "type": "string" },
+          "label": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          },
+          "description": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          },
+          "definition": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          },
+          "principles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "description"],
+              "properties": {
+                "name": { "type": "string" },
+                "description": { "type": "string" }
+              }
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "relatedConcepts": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "related_documents": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "canonicalDate": { "type": "string", "format": "date" },
+          "canonical_date": { "type": "string", "format": "date" },
+          "createdDate": { "type": "string", "format": "date" },
+          "modifiedDate": { "type": "string", "format": "date" },
+          "pdf_version": { "type": "boolean" }
+        }
+      },
+      "pattern": {
+        "type": "object",
+        "required": ["@id", "@type", "label", "version"],
+        "properties": {
+          "@context": {
+            "type": "object",
+            "properties": {
+              "ci": { "type": "string" },
+              "rdfs": { "type": "string" },
+              "schema": { "type": "string" }
+            }
+          },
+          "@id": { "type": "string" },
+          "@type": { "type": "string", "enum": ["ci:Pattern"] },
+          "version": { "type": "string" },
+          "title": { "type": "string" },
+          "category": { "type": "string", "enum": ["pattern"] },
+          "author": { "type": "string" },
+          "language": { "type": "string" },
+          "label": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          },
+          "description": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          },
+          "definition": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          },
+          "principles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "description"],
+              "properties": {
+                "name": { "type": "string" },
+                "description": { "type": "string" }
+              }
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "relatedConcepts": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "related_documents": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "canonicalDate": { "type": "string", "format": "date" },
+          "canonical_date": { "type": "string", "format": "date" },
+          "createdDate": { "type": "string", "format": "date" },
+          "modifiedDate": { "type": "string", "format": "date" },
+          "pdf_version": { "type": "boolean" }
+        }
+      },
+      "antiPattern": {
+        "type": "object",
+        "required": ["@id", "@type", "label", "version"],
+        "properties": {
+          "@context": {
+            "type": "object",
+            "properties": {
+              "ci": { "type": "string" },
+              "rdfs": { "type": "string" },
+              "schema": { "type": "string" }
+            }
+          },
+          "@id": { "type": "string" },
+          "@type": { "type": "string", "enum": ["ci:AntiPattern"] },
+          "version": { "type": "string" },
+          "title": { "type": "string" },
+          "category": { "type": "string", "enum": ["antipattern"] },
+          "author": { "type": "string" },
+          "language": { "type": "string" },
+          "label": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          },
+          "description": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          },
+          "definition": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          },
+          "principles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "description"],
+              "properties": {
+                "name": { "type": "string" },
+                "description": { "type": "string" }
+              }
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "relatedConcepts": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "related_documents": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "canonicalDate": { "type": "string", "format": "date" },
+          "canonical_date": { "type": "string", "format": "date" },
+          "createdDate": { "type": "string", "format": "date" },
+          "modifiedDate": { "type": "string", "format": "date" },
+          "pdf_version": { "type": "boolean" }
+        }
+      }
+    }
+  }

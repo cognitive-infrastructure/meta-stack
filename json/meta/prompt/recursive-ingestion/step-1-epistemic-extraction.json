@@ -1,0 +1,42 @@
+{
+  "id": "ci:meta.prompt.recursive-ingestion.step-1",
+  "version": "1.0",
+  "status": "canonical",
+  "title": "Step 1: Epistemic Extraction",
+  "summary": "Defines the first stage in the recursive ingestion pipeline — extracting core concepts, patterns, diagnostics, and epistemic assets from unstructured manuscripts.",
+  "relatedPrompts": [
+    "ci:meta.prompt.recursive-ingestion.step-2",
+    "ci:meta.prompt.recursive-ingestion.step-3",
+    "ci:meta.prompt.recursive-ingestion.step-4"
+  ],
+  "sections": [
+    {
+      "title": "Purpose",
+      "content": "The Epistemic Extraction phase is the first step in transforming raw manuscripts—books, whitepapers, essays—into structured intelligence that can be integrated into the Cognitive Infrastructure canon. This process does not summarize documents. Instead, it extracts novel epistemic contributions such as core concepts, frameworks, patterns, diagnostics, and terms. These extractions serve as candidates for canonical entries and prepare the ground for structural publishing."
+    },
+    {
+      "title": "How It Works",
+      "content": "Given two inputs: 1. `meta/knowledge-base-summary.md` – the current state of the Cognitive Infrastructure canon. 2. A source document (PDF or `.md`) – the new intellectual material to be evaluated. The LLM runs the extraction prompt to identify novel, reusable contributions that belong to the defined epistemic structure, extend or refine what already exists, and are epistemologically rich and structurally sound."
+    },
+    {
+      "title": "Output Format",
+      "content": "The result is a YAML block listing all epistemic units extracted. Each entry becomes a candidate for formalization via canonical .md files in Step 2. The YAML structure includes title, type, summary, filename, path, and overlap notes for each extracted concept or pattern."
+    },
+    {
+      "title": "Evaluation Criteria",
+      "content": "Prefer atomic ideas over narrative summaries. Flag overlaps with existing concepts. Reject shallow definitions or repeated content. Only include ideas that can live on as independent epistemic assets."
+    },
+    {
+      "title": "Next Step",
+      "content": "Once extracted, pass the YAML output into Step 2: Canonical Entry Generation, where .md files are created using standard structural templates."
+    },
+    {
+      "title": "Related Components",
+      "content": "Step 2: Canonical Entry Generation, Step 3: Upsert Pending Documents, Step 4: Cross-Referencing Pass, CI Writer (for automation)"
+    },
+    {
+      "title": "Revision Log",
+      "content": "v1.0 (Apr 2025): Initial implementation of the Epistemic Extraction phase"
+    }
+  ]
+} 

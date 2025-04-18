@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:antipattern.ballup",
+  "@type": "ci:AntiPattern",
+  "version": "1.0",
+  "label": {
+    "en": "Ballup"
+  },
+  "description": {
+    "en": "Chronic recurring issues despite repeated attempts to fix them."
+  },
+  "tagline": {
+    "en": "No matter how many times we fix it, this problem keeps coming back."
+  },
+  "symptoms": [
+    "Teams repeatedly solve the same issue every few months",
+    "Fixes don't stick",
+    "Chronic 'priority interruptions' for predictable failures",
+    "Escalating workaround complexity"
+  ],
+  "rootCause": {
+    "en": "Current architectural structure cannot adequately hold the complexity pushing on it; attempted fixes address symptoms while ignoring structural pressures."
+  },
+  "impact": {
+    "en": "Chronic firefighting culture; morale erosion as problems recur; escalating maintenance costs; increasing technical and structural debt; opportunity cost as innovation capacity diverts to recurring issues."
+  },
+  "structuralCure": {
+    "en": "Conduct Modal Layer diagnosis to identify which layer is under pressure. Re-evaluate architectural balance and implement appropriate patterns (e.g., Layered Modularity, Semantic Foundation). Refactor rather than patch the affected subsystem."
+  },
+  "quickFixes": [
+    "Document workarounds as explicit playbooks to reduce handling time",
+    "Add monitoring specifically for early detection of recurring pattern",
+    "Create designated handling team to protect wider organization while restructuring occurs"
+  ],
+  "relatedFrictions": [
+    "ci:antipattern.over-layering",
+    "ci:antipattern.trigger-chaos"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16",
+  "relatedConcepts": [
+    "ci:concept.structural-debt",
+    "ci:pattern.layered-modularity",
+    "ci:pattern.semantic-foundation",
+    "ci:antipattern.trigger-chaos"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.multi-axis-integration",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "label": {
+    "en": "Multi-Axis Integration"
+  },
+  "description": {
+    "en": "Vertical, horizontal, end-to-end coherence across structures."
+  },
+  "definition": {
+    "en": "Multi-Axis Integration addresses how intelligence must flow coherently across three dimensions: vertical (between levels of abstraction), horizontal (across functional domains), and end-to-end (through sequential processes) to maintain operational clarity."
+  },
+  "principles": [
+    {
+      "name": "Vertical Integration",
+      "description": "Connects levels of abstraction and authority within a domain, establishing how information flows up and down hierarchical structures, how decisions cascade, and how accountability aligns."
+    },
+    {
+      "name": "Horizontal Integration",
+      "description": "Spans across functional domains at similar levels of abstraction, enabling coordination between parallel capabilities, creating consistent experiences across boundaries, and facilitating collaborative work."
+    },
+    {
+      "name": "End-to-End Integration",
+      "description": "Links stages in sequential processes or lifecycles, ensuring that handoffs between phases preserve context and intent, and that earlier stages effectively enable later ones."
+    },
+    {
+      "name": "Balanced Development",
+      "description": "Improvement strategies must consider impacts across all three axes, as advancing one integration dimension often creates tensions in others unless deliberately managed."
+    }
+  ],
+  "relatedConcepts": [
+    "ci:concept.modal-layer-architecture",
+    "ci:concept.role-structure-coherence"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16"
+}

@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:antipattern.metric-mirage",
+  "@type": "ci:AntiPattern",
+  "version": "1.0",
+  "label": {
+    "en": "Metric Mirage"
+  },
+  "description": {
+    "en": "Measurements that don't influence behavior or drive adaptation despite comprehensive tracking."
+  },
+  "tagline": {
+    "en": "We track everything but nothing changes as a result."
+  },
+  "symptoms": [
+    "Proliferating metrics without corresponding improvement initiatives",
+    "Reports generated but rarely referenced in decision-making",
+    "Continued focus on metrics that haven't changed after extended measurement",
+    "Metrics that don't connect to action pathways",
+    "Growing measurement sophistication without growing system adaptation"
+  ],
+  "rootCause": {
+    "en": "Feedback loops that don't close—gathering data without connecting it to response mechanisms; metrics selected for ease of measurement rather than actionability; missing ownership of metric-driven improvement; measuring what's available instead of what matters."
+  },
+  "impact": {
+    "en": "Wasted effort on meaningless measurement; declining trust in data-driven approaches; growing cynicism about metrics programs; measurements that obscure rather than reveal system behavior; false sense of control while real issues go undetected."
+  },
+  "structuralCure": {
+    "en": "Implement Closed-Loop Feedback pattern linking each critical metric to specific action pathways. Create metric lifecycle management that regularly evaluates measurement relevance. Build feedback layer that explicitly incorporates learning mechanisms. Establish clearer ownership of metric-driven improvements."
+  },
+  "quickFixes": [
+    "Audit current metrics and prune those without clear influence on decisions",
+    "For key metrics, explicitly document desired actions based on different readings",
+    "Categorize metrics by actionability rather than domain",
+    "Add 'Last caused action on...' timestamp to measurement displays"
+  ],
+  "relatedFrictions": [
+    "ci:antipattern.dashboard-theater",
+    "ci:antipattern.cognitive-amnesia"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16",
+  "relatedConcepts": [
+    "ci:concept.epistemic-substrate-theory",
+    "ci:pattern.closed-loop-feedback",
+    "ci:antipattern.cognitive-amnesia",
+    "ci:antipattern.dashboard-theater"
+  ]
+}

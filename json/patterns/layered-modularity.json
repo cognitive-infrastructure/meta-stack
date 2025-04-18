@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:pattern.layered-modularity",
+  "@type": "ci:Pattern",
+  "version": "1.0",
+  "label": {
+    "en": "Layered Modularity"
+  },
+  "description": {
+    "en": "Align system boundaries with the five Modal Layers for independent evolution."
+  },
+  "intent": {
+    "en": "Align system boundaries with the five Modal Layers so each can evolve independently."
+  },
+  "context": {
+    "en": "Complex systems with rapid change requirements, cross-functional teams, growing technical debt."
+  },
+  "problem": {
+    "en": "Interleaved concerns make safe refactoring impossible; changes to interfaces require rebuilding business logic; data structure changes break visualizations."
+  },
+  "forces": {
+    "en": "Time-to-market pressure vs. architectural integrity, team specialization, legacy system constraints, incremental funding models."
+  },
+  "solution": {
+    "en": "Enforce clear ownership boundaries around each Modal Layer. Ensure interfaces only cross adjacent layers through well-defined contracts. Allow specialized teams to optimize within layers while maintaining strict cross-layer protocols."
+  },
+  "resultingContext": {
+    "en": "Predictable change surface with isolated impacts; simpler mental models for each layer; reduced cross-team dependencies; foundation for continuous evolution without system-wide rewrites."
+  },
+  "successSignals": [
+    "Deployment diffs rarely touch more than one layer",
+    "Reduced integration testing time",
+    "Ability to replace components within layers without disrupting others",
+    "Declining emergency fix frequency"
+  ],
+  "preventedAntiPatterns": [
+    "ci:antipattern.over-layering",
+    "ci:antipattern.trigger-chaos"
+  ],
+  "relatedPatterns": [
+    "ci:concept.modal-layer-architecture"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16",
+  "relatedConcepts": [
+    "ci:concept.modal-layer-architecture",
+    "ci:antipattern.trigger-chaos"
+  ]
+}

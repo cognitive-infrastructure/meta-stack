@@ -1,0 +1,38 @@
+{
+    "@context": {
+      "ci": "https://cognitiveinfrastructure.org/schema#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "schema": "http://schema.org/"
+    },
+    "@id": "ci:concept.modal-layer-architecture",
+    "@type": "ci:Concept",
+    "version": "1.0",
+    "label": {
+      "en": "Modal Layer Architecture"
+    },
+    "description": {
+      "en": "Five‑layer model that keeps operational intelligence evolvable."
+    },
+    "definition": {
+      "en": "Modal Layer Architecture separates operational intelligence into five cooperative layers—Data, Logic, Interface, Orchestration, Feedback—so each can evolve without breaking the others."
+    },
+    "principles": [
+      {
+        "name": "Separation of Concerns",
+        "description": "Each layer has a distinct purpose: Data establishes what exists, Logic determines what it means, Interface controls how it's presented, Orchestration manages how it flows, and Feedback enables how it learns."
+      },
+      {
+        "name": "Clear Contracts",
+        "description": "Layers communicate through well-defined interfaces, allowing internal implementation details to change without disrupting other layers."
+      },
+      {
+        "name": "Balanced Evolution",
+        "description": "System capability is constrained by the least mature layer; imbalances between layers create characteristic dysfunctions like 'Dashboard Theater' or 'Trigger Chaos.'"
+      }
+    ],
+    "relatedConcepts": [
+      "ci:concept.structure-memory-interaction"
+    ],
+    "createdDate": "2024-04-16",
+    "modifiedDate": "2024-04-16"
+  }

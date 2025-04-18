@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:pattern.closed-loop-feedback",
+  "@type": "ci:Pattern",
+  "version": "1.0",
+  "label": {
+    "en": "Closed-Loop Feedback"
+  },
+  "description": {
+    "en": "Design measurement systems that immediately inform adjustments through clear action pathways."
+  },
+  "intent": {
+    "en": "Design measurement systems that immediately inform adjustments through clear action pathways."
+  },
+  "context": {
+    "en": "Complex operational environments; continuous improvement programs; autonomous or semi-autonomous systems; dynamic market conditions."
+  },
+  "problem": {
+    "en": "Measurements exist but don't influence behavior; metrics are collected but not actioned; feedback cycles are too slow to prevent recurring issues."
+  },
+  "forces": {
+    "en": "Measurement vs. action orientation, lag time in traditional reporting, organizational silos, unclear ownership of response protocols, incentive misalignment."
+  },
+  "solution": {
+    "en": "For each critical metric, establish: 1) clear intervention thresholds, 2) predefined response protocols, 3) explicit ownership of action, and 4) verification mechanisms to confirm intervention effectiveness. Design feedback visualizations that incorporate both measure and response as a unified view."
+  },
+  "resultingContext": {
+    "en": "Self-regulating operational systems that respond to changes without manual coordination; continuous improvement driven by actual outcomes rather than planned initiatives; reduced firefighting as issues are addressed at earlier stages."
+  },
+  "successSignals": [
+    "Declining time-to-correction for detected issues",
+    "Increasing percentage of corrections made without escalation",
+    "Declining variance in key performance metrics",
+    "Feedback mechanisms evolve based on effectiveness measurement"
+  ],
+  "preventedAntiPatterns": [
+    "ci:antipattern.metric-mirage",
+    "ci:antipattern.cognitive-amnesia"
+  ],
+  "relatedPatterns": [
+    "ci:concept.friction-ontology",
+    "ci:concept.modal-layer-architecture"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16",
+  "relatedConcepts": [
+    "ci:concept.friction-ontology",
+    "ci:concept.modal-layer-architecture",
+    "ci:antipattern.cognitive-amnesia",
+    "ci:antipattern.metric-mirage"
+  ]
+}

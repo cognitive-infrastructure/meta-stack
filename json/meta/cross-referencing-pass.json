@@ -1,0 +1,41 @@
+{
+  "id": "ci:meta.cross-referencing-pass",
+  "version": "1.0",
+  "status": "canonical",
+  "title": "Cross-Referencing Protocol",
+  "summary": "A protocol for adding semantic relationships and bi-directional links across all canonical concepts in the repository.",
+  "sections": [
+    {
+      "title": "Cross-Referencing Protocol",
+      "content": "You are acting as a semantic interlinking engine for the Cognitive Infrastructure canon. Your task is to traverse all canonical `.md` files in the repository and: 1. Analyze their content; 2. Detect mentions or references to other known concepts; 3. Populate the `relatedConcepts` array in the frontmatter accordingly; 4. Ensure consistency across both the Markdown and `.json` representations; 5. Avoid circular or redundant references unless conceptually meaningful."
+    },
+    {
+      "title": "Instructions",
+      "content": "1. Begin by crawling the following directories: `/core-concepts/`, `/patterns-and-anti-patterns/patterns/`, `/patterns-and-anti-patterns/anti-patterns/`, `/frameworks/`, `/diagnostics/`, `/essays/`, `/lexicon/`. 2. For each file: read the title, definition, and body; detect mentions of other canonical concepts (by title or filename); update the `relatedConcepts` list in frontmatter (Markdown and JSON). 3. Ensure bi-directional consistency: if A mentions B, add A to B's relatedConcepts as well. 4. Sort `relatedConcepts` alphabetically. 5. Save changes with a descriptive changelog and commit."
+    },
+    {
+      "title": "Semantic Rules",
+      "content": "Mention alone is not sufficient: there must be meaningful conceptual relevance. Prefer quality of linkage over quantity. Do not link to non-canonical or draft content. Add explanatory comments in code blocks if needed for manual review."
+    },
+    {
+      "title": "Example Frontmatter Before",
+      "content": "```yaml\n---\nid: ci:core-concept.structural-debt\nstatus: canonical\nversion: 1.0\nsummary: ...\nrelatedConcepts: []\n---\n```"
+    },
+    {
+      "title": "Example Frontmatter After",
+      "content": "```yaml\n---\nid: ci:core-concept.structural-debt\nstatus: canonical\nversion: 1.0\nsummary: ...\nrelatedConcepts: [\"Clarity Laws\", \"Friction Ontology\", \"Modal Layer Architecture\"]\n---\n```"
+    },
+    {
+      "title": "Execution Instructions",
+      "content": "```bash\n# Execute full cross-referencing pass\nnode tools/ci-coder.js cross-reference\n\n# For targeted cross-referencing of specific files\nnode tools/ci-coder.js cross-reference --path core-concepts/structural-debt.md\n\n# To validate results after cross-referencing\nnode tools/ci-coder.js validate\n```"
+    },
+    {
+      "title": "Execution Context",
+      "content": "You are the structural librarian for a recursive intelligence system. Create not just links, but meaning. The Cross-Referencing Protocol is designed to run: after new content is added via the Pending Ingestion Protocol, periodically to maintain semantic coherence as concepts evolve, before major releases to ensure knowledge graph consistency."
+    },
+    {
+      "title": "Revision Log",
+      "content": "v1.0 (Apr 2025): Initial implementation of the Cross-Referencing Protocol"
+    }
+  ]
+} 

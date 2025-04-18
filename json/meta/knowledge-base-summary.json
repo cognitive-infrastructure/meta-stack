@@ -1,0 +1,32 @@
+{
+  "id": "ci:meta.knowledge-base-summary",
+  "status": "canonical",
+  "version": "1.0",
+  "purpose": "Recursive condensation of repo structure",
+  "description": "This file contains the structured summary of the Cognitive Infrastructure knowledge base repository, including core concepts, patterns, anti-patterns, file structure, and meta-architecture.",
+  "structure": {
+    "core-concepts": ["Structure–Memory–Interaction Triad", "Modal Layer Architecture", "Clarity Laws", "Structural Debt", "Friction Ontology", "Return-as-Intelligence", "Epistemophany", "Coherence Debt", "Structural Receptivity"],
+    "patterns": ["Semantic Foundation", "Layered Modularity", "Single Source of Truth", "Closed-Loop Feedback", "Return Path Engineering"],
+    "anti-patterns": ["Ballup", "Semantic Drift", "Dashboard Theater", "Hero Syndrome", "Toolification", "Metastable Intelligence"]
+  },
+  "evolution": {
+    "strategy": "Update this file every time new source material is added or concept structure is updated.",
+    "rules": [
+      "Always reflect new additions in the summary and filemap.",
+      "Maintain changelog for version evolution.",
+      "Treat this file as the primary orientation object for AI agents and recursive workflows."
+    ],
+    "revision_log": [
+      {
+        "version": "v1.0",
+        "date": "2025-04-17",
+        "note": "Initial condensation from full source PDFs and `.md` files"
+      },
+      {
+        "version": "v1.1",
+        "date": "TBD",
+        "note": "Added patterns registry and updated filemap"
+      }
+    ]
+  }
+} 

@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.semantic-friction",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "category": "concept",
+  "author": "Rashid Azarang",
+  "label": {
+    "en": "Semantic Friction"
+  },
+  "description": {
+    "en": "The resistance encountered when attempting to translate meaning across boundaries in knowledge systems."
+  },
+  "definition": {
+    "en": "Semantic Friction is the energy lost during information transfer due to inconsistent ontologies, divergent mental models, and misaligned conceptual frameworks. Unlike simple misunderstanding that can be resolved through clarification, semantic friction represents structural impedance in how different parts of a system fundamentally organize and interpret reality."
+  },
+  "principles": [
+    {
+      "name": "Ontological Misalignment",
+      "description": "Different domains often categorize and structure reality in fundamentally different ways, creating barriers to shared understanding."
+    },
+    {
+      "name": "Translation Loss",
+      "description": "Energy and meaning are lost when information crosses semantic boundaries, reducing fidelity and utility."
+    },
+    {
+      "name": "Scaling Impact",
+      "description": "Semantic friction compounds exponentially as systems and organizations grow, creating escalating coordination costs."
+    },
+    {
+      "name": "Boundary Costs",
+      "description": "Crossing knowledge boundaries requires structured translation processes that add overhead to collaboration."
+    },
+    {
+      "name": "Hidden Coordination Tax",
+      "description": "Semantic friction creates invisible transaction costs in communication that rarely appear in budgets but significantly impact productivity."
+    }
+  ],
+  "relatedConcepts": [
+    "ci:concept.coherence-debt",
+    "ci:concept.friction-ontology",
+    "ci:pattern.canonical-ids",
+    "ci:pattern.semantic-foundation",
+    "ci:antipattern.cognitive-amnesia"
+  ],
+  "canonicalDate": "2024-04-16",
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16"
+}

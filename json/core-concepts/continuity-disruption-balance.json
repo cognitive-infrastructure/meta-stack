@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.continuity-disruption-balance",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "label": {
+    "en": "Continuity-Disruption Balance"
+  },
+  "description": {
+    "en": "Framework for safe evolution without breaking trust."
+  },
+  "definition": {
+    "en": "Continuity-Disruption Balance addresses a fundamental tension in intelligent systems: the need to both preserve essential stability and enable necessary evolution, providing frameworks for determining where and how systems can change without collapsing."
+  },
+  "principles": [
+    {
+      "name": "Stability Thresholds",
+      "description": "Every system has a range within which it can adapt while maintaining coherence. Beyond this range, phase transitions occur—sometimes gradually, sometimes suddenly."
+    },
+    {
+      "name": "Dimensional Readiness",
+      "description": "The Continuity-Disruption Balance varies across three key dimensions: Domain Readiness (different functional areas), Change Type Readiness (categories of change), and Temporal Readiness (timing factors)."
+    },
+    {
+      "name": "Evolution Intensity",
+      "description": "Different types of change affect systems with varying intensity: Process Optimization (minimal disruption), Capability Enhancement (moderate disruption), Structural Reconfiguration (higher disruption), and Identity Transformation (maximum disruption)."
+    },
+    {
+      "name": "Targeted Transformation",
+      "description": "Change should be prioritized where pain is highest, return on investment is clearest, and stakeholder buy-in exists, rather than attempting comprehensive transformation."
+    }
+  ],
+  "relatedConcepts": [
+    "ci:concept.structural-debt",
+    "ci:concept.universal-evolutionary-stages"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16"
+}

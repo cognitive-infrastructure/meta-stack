@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.return-as-intelligence",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "label": {
+    "en": "Return-as-Intelligence"
+  },
+  "description": {
+    "en": "Revisiting understanding is itself a generative cognitive act."
+  },
+  "definition": {
+    "en": "Return-as-Intelligence inverts conventional models by recognizing that revisiting, reengaging, and recontextualizing previous understanding is not merely maintenance but a core mechanism through which intelligence compounds and evolves."
+  },
+  "principles": [
+    {
+      "name": "From Capture to Return",
+      "description": "Shift design focus from efficient information collection to enabling meaningful reengagement, creating not just storage but retrieval architectures."
+    },
+    {
+      "name": "Strategic Revisitation",
+      "description": "Not all information warrants equal return investment; distinguish between reference material (needs findability) and evolutionary material (needs engagement pathways)."
+    },
+    {
+      "name": "Context Restoration",
+      "description": "Effective return requires restoring not just content but intention, constraints, and surrounding thought—the original frame that made information meaningful."
+    },
+    {
+      "name": "Layered Interaction",
+      "description": "Design for multiple return depths: quick reference (minimal context), deeper review (moderate restoration), and fundamental reengagement (complete reimmersion)."
+    },
+    {
+      "name": "Return Path Engineering",
+      "description": "Explicitly design the routes, triggers, and interfaces that enable return, treating them as core infrastructure rather than incidental features."
+    }
+  ],
+  "relatedConcepts": [
+    "ci:pattern.return-path-engineering"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16"
+}

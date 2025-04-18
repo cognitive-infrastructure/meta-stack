@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.role-structure-coherence",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "label": {
+    "en": "Role-Structure Coherence"
+  },
+  "description": {
+    "en": "Alignment of responsibility with supporting scaffolding."
+  },
+  "definition": {
+    "en": "Role-Structure Coherence addresses the essential relationship between responsibilities assigned to individuals or teams and the supporting scaffolding that enables those functions—revealing where architecture must evolve to support changing roles."
+  },
+  "principles": [
+    {
+      "name": "Role Clarity vs. Rigidity",
+      "description": "Effective roles establish clear boundaries and expectations without constraining adaptation. Role clarity creates shared understanding about responsibilities and coordination; role rigidity creates brittle definitions that prevent evolution."
+    },
+    {
+      "name": "Common Mismatches",
+      "description": "Several patterns indicate role-structure incoherence: the Accountability-Authority Gap (responsibility without control), the Expertise-Information Mismatch (specialized roles without access to needed information), and the Boundary-Interface Disconnect (clear domains without defined interaction points)."
+    },
+    {
+      "name": "Coherent Evolution",
+      "description": "When roles or structures change, the corresponding element must evolve synchronously. New responsibilities require supporting infrastructure; new tools and processes require clear ownership and accountability."
+    },
+    {
+      "name": "Hero Dependency Remediation",
+      "description": "Converting individual-dependent processes into structurally supported systems requires externalizing tacit knowledge, creating structural memory, and developing transition paths that maintain capability while reducing dependency on specific individuals."
+    }
+  ],
+  "relatedConcepts": [
+    "ci:concept.multi-axis-integration",
+    "ci:antipattern.hero-syndrome"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16"
+}

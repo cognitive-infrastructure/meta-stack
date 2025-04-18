@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:pattern.single-source-of-truth",
+  "@type": "ci:Pattern",
+  "version": "1.0",
+  "label": {
+    "en": "Single Source of Truth"
+  },
+  "description": {
+    "en": "Establish authoritative entity records from which all others derive."
+  },
+  "intent": {
+    "en": "Establish authoritative entity records from which all other representations derive."
+  },
+  "context": {
+    "en": "Multiple systems tracking the same entities; distributed teams; reporting inconsistencies; high data reconciliation costs."
+  },
+  "problem": {
+    "en": "Same entity exists in multiple systems with conflicting attributes, creating reconciliation burdens and eroding trust in operational data."
+  },
+  "forces": {
+    "en": "System specialization needs vs. data integrity, distributed ownership models, history of siloed development, performance requirements for local data."
+  },
+  "solution": {
+    "en": "Designate one system as the authoritative record for each entity type. Create clear data ownership model with published SLAs. Implement synchronization mechanisms where other systems need local copies, with explicit freshness metadata and lineage tracking."
+  },
+  "resultingContext": {
+    "en": "Clear resolution path for data conflicts; reduced reconciliation effort; foundation for reliable analytics; trust in system data improves operational decision quality."
+  },
+  "successSignals": [
+    "Entity lookups converge to same result regardless of starting system",
+    "Reduced time spent reconciling conflicting records",
+    "Declining duplicate entity counts",
+    "Increased reference to canonical sources in reporting"
+  ],
+  "preventedAntiPatterns": [
+    "ci:antipattern.semantic-drift",
+    "ci:antipattern.cognitive-amnesia"
+  ],
+  "relatedPatterns": [
+    "ci:pattern.canonical-ids",
+    "ci:pattern.semantic-foundation"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16",
+  "relatedConcepts": [
+    "ci:pattern.canonical-ids",
+    "ci:pattern.semantic-foundation",
+    "ci:antipattern.cognitive-amnesia",
+    "ci:antipattern.semantic-drift"
+  ]
+}

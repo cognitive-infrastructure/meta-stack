@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:pattern.semantic-foundation",
+  "@type": "ci:Pattern",
+  "version": "1.0",
+  "category": "pattern",
+  "author": "Rashid Azarang",
+  "canonicalDate": "2024-04-10",
+  "label": {
+    "en": "Semantic Foundation"
+  },
+  "description": {
+    "en": "Establishes shared definitions and conceptual models before automating processes or building systems."
+  },
+  "definition": {
+    "en": "The Semantic Foundation pattern establishes shared definitions and conceptual models before automating processes or building systems. It ensures all stakeholders operate from common understanding, preventing misalignment and semantic drift as complexity increases. This pattern prioritizes definitional clarity as infrastructure rather than as documentation added later."
+  },
+  "principles": [
+    {
+      "name": "Core Concept Identification",
+      "description": "Map the essential entities and relationships that form your domain."
+    },
+    {
+      "name": "Canonical Definition Creation",
+      "description": "Establish precise, stable definitions with examples and counterexamples."
+    },
+    {
+      "name": "Relationship Modeling",
+      "description": "Define how concepts relate to each other through hierarchies and dependencies."
+    },
+    {
+      "name": "Governance Process Establishment",
+      "description": "Define how definitions evolve and who maintains semantic authority."
+    },
+    {
+      "name": "Visibility Emphasis",
+      "description": "Make this foundation accessible and visible, not buried in documentation."
+    }
+  ],
+  "relatedConcepts": [
+    "ci:pattern.canonical-ids",
+    "ci:pattern.single-source-of-truth",
+    "ci:antipattern.semantic-drift"
+  ],
+  "tags": [
+    "semantic",
+    "foundation",
+    "definitions",
+    "clarity"
+  ],
+  "createdDate": "2024-04-10",
+  "modifiedDate": "2024-04-16"
+}

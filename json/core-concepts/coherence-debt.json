@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.coherence-debt",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "label": {
+    "en": "Coherence Debt"
+  },
+  "description": {
+    "en": "Coherence Debt is what you owe when everyone uses the same words for different things."
+  },
+  "definition": {
+    "en": "The cumulative deficit in shared meaning, narrative alignment, and interpretive trust that arises when a system's data, language, or purpose diverges across its actors. It degrades decision quality and erodes collective intelligence even when the underlying mechanics still function."
+  },
+  "principles": [
+    {
+      "name": "Knowledge Externalization Deficit",
+      "description": "When shared meaning exists primarily in informal conversations rather than explicit structures, divergent interpretations proliferate across teams and time."
+    },
+    {
+      "name": "Process Formalization Gap",
+      "description": "Without documented semantic standards, glossaries, and feedback loops, language evolution occurs unevenly, creating hidden rifts in understanding."
+    },
+    {
+      "name": "Narrative Alignment Failure",
+      "description": "Strategic intent becomes fragmented as different teams operate with conflicting interpretations of goals, metrics, and priorities."
+    },
+    {
+      "name": "Interpretive Trust Breakdown",
+      "description": "As metrics return different values from different sources, data skepticism grows, eroding trust in the informational foundation needed for collaboration."
+    },
+    {
+      "name": "Decision Quality Degradation",
+      "description": "When people use the same terms to mean different things, the quality of cross-functional decisions degrades even while individual teams appear functional."
+    }
+  ],
+  "relatedConcepts": [],
+  "createdDate": "2025-04-17",
+  "modifiedDate": "2025-04-17"
+}

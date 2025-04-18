@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.structure-memory-interaction",
+  "@type": "ci:Concept",
+  "version": "1.0",
+  "category": "concept",
+  "author": "Rashid Azarang",
+  "canonicalDate": "2024-04-10",
+  "label": {
+    "en": "Structure–Memory–Interaction Triad"
+  },
+  "description": {
+    "en": "The fundamental triad for usable intelligence—the architectural foundation enabling knowledge to remain clear, persistent over time, and capable of evolution."
+  },
+  "definition": {
+    "en": "The SMI Triad defines how usable intelligence emerges from three essential components: organization of information (Structure), ability to access past states (Memory), and systems that continuously refine understanding through usage patterns (Interaction). Together, these create the necessary conditions for knowledge systems that retain clarity, learn, and evolve coherently over time."
+  },
+  "principles": [
+    {
+      "name": "Structural Alignment",
+      "description": "Information architecture must reflect underlying reality to prevent semantic drift."
+    },
+    {
+      "name": "Return Accessibility",
+      "description": "Memory systems must make previous states accessible with minimal friction."
+    },
+    {
+      "name": "Integrative Interaction",
+      "description": "Usage patterns should recursively refine both structure and memory through closed feedback loops."
+    },
+    {
+      "name": "Coherence Conservation",
+      "description": "The three elements must maintain alignment to prevent information entropy."
+    },
+    {
+      "name": "Modal Separation",
+      "description": "Each component requires distinct design patterns yet must integrate seamlessly at boundaries."
+    }
+  ],
+  "relatedConcepts": [
+    "ci:concept.modal-layer-architecture",
+    "ci:concept.return-as-intelligence",
+    "ci:concept.structural-debt",
+    "ci:antipattern.semantic-drift"
+  ],
+  "tags": [
+    "foundational",
+    "architecture",
+    "intelligence"
+  ],
+  "createdDate": "2024-04-10",
+  "modifiedDate": "2024-04-16"
+}

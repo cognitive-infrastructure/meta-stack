@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:pattern.canonical-ids",
+  "@type": "ci:Pattern",
+  "version": "1.0",
+  "label": {
+    "en": "Canonical IDs"
+  },
+  "description": {
+    "en": "Create stable, globally unique identifiers for entities and concepts that transcend specific systems."
+  },
+  "intent": {
+    "en": "Create stable, globally unique identifiers for entities and concepts that transcend specific systems."
+  },
+  "context": {
+    "en": "Multi-system environments, data integration requirements, entity disambiguation needs, long-lived digital records."
+  },
+  "problem": {
+    "en": "Entities are identified differently across systems, creating reconciliation challenges, potential duplicates, and an inability to track items across their lifecycle."
+  },
+  "forces": {
+    "en": "System-specific ID requirements, legacy identification schemes, performance considerations for lookups, governance complexity."
+  },
+  "solution": {
+    "en": "Implement a stable ID architecture with: 1) system-agnostic IDs managed in a central registry, 2) structured format with namespaces and entity types, 3) immutable assignment policy, and 4) bidirectional mappings to local system identifiers. Publish ID resolution services accessible across organizational boundaries."
+  },
+  "resultingContext": {
+    "en": "Reliable entity tracking across system boundaries; foundation for comprehensive entity timelines; reduced integration complexity; elimination of identity resolution as a recurring challenge."
+  },
+  "successSignals": [
+    "Decreasing entity resolution exceptions",
+    "Stable references in long-running processes",
+    "Elimination of 'which customer is this?' type questions",
+    "Ability to track entity state changes across system boundaries"
+  ],
+  "preventedAntiPatterns": [
+    "ci:antipattern.semantic-drift",
+    "ci:antipattern.dashboard-theater"
+  ],
+  "relatedPatterns": [
+    "ci:pattern.single-source-of-truth",
+    "ci:pattern.semantic-foundation"
+  ],
+  "createdDate": "2024-04-16",
+  "modifiedDate": "2024-04-16",
+  "relatedConcepts": [
+    "ci:pattern.semantic-foundation",
+    "ci:pattern.single-source-of-truth",
+    "ci:antipattern.dashboard-theater",
+    "ci:antipattern.semantic-drift"
+  ]
+}

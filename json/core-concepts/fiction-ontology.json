@@ -1,0 +1,50 @@
+{
+    "@context": {
+      "ci": "https://cognitiveinfrastructure.org/schema#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "schema": "http://schema.org/"
+    },
+    "@id": "ci:concept.friction-ontology",
+    "@type": "ci:Concept",
+    "version": "1.0",
+    "label": {
+      "en": "Friction Ontology"
+    },
+    "description": {
+      "en": "Taxonomy of recurring clarity frictions and their signals."
+    },
+    "definition": {
+      "en": "Friction Ontology catalogs recurring patterns where intelligence systems resist clarity, providing a diagnostic taxonomy to identify structural issues from their symptoms, root causes, and characteristic impacts across different contexts."
+    },
+    "principles": [
+      {
+        "name": "Frictions as Signals",
+        "description": "Each friction pattern indicates specific architectural tensions, not merely operational inefficiency. They reveal where evolution wants to occur."
+      },
+      {
+        "name": "Universal Recurrence",
+        "description": "These patterns manifest across vastly different domains and technologies because they emerge from fundamental structural properties rather than specific implementations."
+      },
+      {
+        "name": "Diagnostic Value",
+        "description": "Identifying the correct friction pattern provides immediate insight into appropriate remediation strategies and likely evolution paths."
+      },
+      {
+        "name": "Structural Transformation",
+        "description": "Permanent resolution requires addressing the underlying architectural pattern rather than superficial symptoms, typically involving rebalancing modal layers."
+      }
+    ],
+    "relatedConcepts": [
+      "ci:concept.structural-debt",
+      "ci:antipattern.ballup",
+      "ci:antipattern.dashboard-theater",
+      "ci:antipattern.semantic-drift",
+      "ci:antipattern.hero-syndrome",
+      "ci:antipattern.cognitive-amnesia",
+      "ci:antipattern.trigger-chaos",
+      "ci:antipattern.metric-mirage",
+      "ci:antipattern.over-layering"
+    ],
+    "createdDate": "2024-04-16",
+    "modifiedDate": "2024-04-16"
+  }

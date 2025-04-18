@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "ci": "https://cognitiveinfrastructure.org/schema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "ci:concept.metastable-intelligence",
+  "@type": "ci:AntiPattern",
+  "version": "1.0",
+  "label": {
+    "en": "Metastable Intelligence"
+  },
+  "description": {
+    "en": "Systems that appear intelligent and functional until stress reveals their hidden structural fragilities."
+  },
+  "definition": {
+    "en": "A pattern in which systems exhibit apparent functionality and intelligence while containing hidden architectural fragilities that make them prone to disproportionate or catastrophic degradation when subjected to stress, perturbation, or context change—creating an illusion of robustness that masks underlying structural weaknesses."
+  },
+  "principles": [
+    {
+      "name": "Compensatory Coherence",
+      "description": "The system achieves apparent coherence not through structural integrity but through compensatory mechanisms—typically heroic human effort, informal coordination, or excessive resource allocation—that mask underlying architectural disconnections."
+    },
+    {
+      "name": "False Redundancy",
+      "description": "The system appears to have redundant paths or capabilities, but these share hidden common dependencies or failure modes, creating the illusion of resilience while actually harboring systemic vulnerabilities."
+    },
+    {
+      "name": "Semantic Fragmentation",
+      "description": "While presenting a unified interface, the system contains inconsistent or conflicting definitional frameworks that function adequately in isolation but generate cascading contradictions when integrated or stressed."
+    },
+    {
+      "name": "Technical Debt Accumulation",
+      "description": "The system accumulates unaddressed technical or structural debt below the threshold of operational visibility, functioning normally until the accumulated debt crosses a critical threshold."
+    },
+    {
+      "name": "Context-Dependent Functionality",
+      "description": "The system functions reliably within a narrow set of conditions but lacks the architectural foundations to adapt to changing contexts, creating brittle rather than robust intelligence."
+    }
+  ],
+  "relatedConcepts": [
+    "ci:concept.structural-debt"
+  ],
+  "createdDate": "2025-04-17",
+  "modifiedDate": "2025-04-17"
+}
